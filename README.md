@@ -7,7 +7,7 @@ Crawl Investor Relation forms of companies of Shenzhen stock market from <a href
 #### Extract investor activity types
 <p align="center">
 <img src="https://github.com/AlexaYuqinD/Knowledge-Graph-for-Activities-of-Investor-Relations/blob/master/images/type1.PNG" 
- width="400" height="100" />
+ width="400" height="110" />
 </p>
 
 
@@ -26,13 +26,15 @@ Crawl Investor Relation forms of companies of Shenzhen stock market from <a href
 
 <p align="center">
 <img src="https://github.com/AlexaYuqinD/Knowledge-Graph-for-Activities-of-Investor-Relations/blob/master/images/guest1.PNG" 
- width="350" height="60" />
+ width="350" height="50" />
 </p>
 
 <p align="center">
 <img src="https://github.com/AlexaYuqinD/Knowledge-Graph-for-Activities-of-Investor-Relations/blob/master/images/guest2.PNG" 
  width="400" height="120" />
 </p>
+
+### Under Construction ...
 
 ## Reference
 [crownpku/Information-Extraction-Chinese](https://github.com/crownpku/Information-Extraction-Chinese)
