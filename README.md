@@ -6,7 +6,7 @@ Crawl Investor Relation forms of companies of Shenzhen stock market from <a href
 ## 2. Knowledge Extraction
 #### Extract investor activity types
 <p align="center">
-<img src="https://github.com/AlexaYuqinD/Knowledge-Graph-for-Activities-of-Investor-Relations/tree/master/images/type1.PNG" 
+<img src="https://github.com/AlexaYuqinD/Knowledge-Graph-for-Activities-of-Investor-Relations/blob/master/images/type1.PNG" 
  width="400" height="100" />
 </p>
 
@@ -19,14 +19,14 @@ Crawl Investor Relation forms of companies of Shenzhen stock market from <a href
 #### Extract host names and positions
 <p align="center">
 <img src="https://github.com/AlexaYuqinD/Knowledge-Graph-for-Activities-of-Investor-Relations/blob/master/images/host.PNG" 
- width="400" height="70" />
+ width="400" height="60" />
 </p>
 
 #### Extract guest names and corresponding companies
 
 <p align="center">
 <img src="https://github.com/AlexaYuqinD/Knowledge-Graph-for-Activities-of-Investor-Relations/blob/master/images/guest1.PNG" 
- width="350" height="70" />
+ width="350" height="60" />
 </p>
 
 <p align="center">
