@@ -12,25 +12,25 @@ Crawl Investor Relation forms of companies of Shenzhen stock market from <a href
 
 
 <p align="center">
-<img src="https://github.com/AlexaYuqinD/Knowledge-Graph-for-Activities-of-Investor-Relations/tree/master/images/type2.png" 
+<img src="https://github.com/AlexaYuqinD/Knowledge-Graph-for-Activities-of-Investor-Relations/blob/master/images/type2.PNG" 
  width="300" height="80" />
 </p>
 
 #### Extract host names and positions
 <p align="center">
-<img src="https://github.com/AlexaYuqinD/Knowledge-Graph-for-Activities-of-Investor-Relations/tree/master/images/host.png" 
+<img src="https://github.com/AlexaYuqinD/Knowledge-Graph-for-Activities-of-Investor-Relations/blob/master/images/host.PNG" 
  width="300" height="50" />
 </p>
 
 #### Extract guest names and corresponding companies
 
 <p align="center">
-<img src="https://github.com/AlexaYuqinD/Knowledge-Graph-for-Activities-of-Investor-Relations/tree/master/images/guest1.png" 
+<img src="https://github.com/AlexaYuqinD/Knowledge-Graph-for-Activities-of-Investor-Relations/blob/master/images/guest1.PNG" 
  width="280" height="50" />
 </p>
 
 <p align="center">
-<img src="https://github.com/AlexaYuqinD/Knowledge-Graph-for-Activities-of-Investor-Relations/tree/master/images/guest2.png" 
+<img src="https://github.com/AlexaYuqinD/Knowledge-Graph-for-Activities-of-Investor-Relations/blob/master/images/guest2.PNG" 
  width="300" height="100" />
 </p>
 
