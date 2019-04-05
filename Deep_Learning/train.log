@@ -1,0 +1,7 @@
+2018-04-10 14:30:54,139 - train.log - INFO - Created model with fresh parameters.
+2018-04-10 14:30:55,523 - train.log - INFO - Load pre-trained embedding.
+2018-04-10 14:40:38,533 - train.log - INFO - Reading model parameters from ckpt_IDCNN\ner.ckpt
+2018-04-10 23:32:46,466 - train.log - INFO - Reading model parameters from ckpt_IDCNN\ner.ckpt
+2018-04-10 23:33:31,197 - train.log - INFO - Reading model parameters from ckpt\ner.ckpt
+2018-04-10 23:55:50,951 - train.log - INFO - Reading model parameters from ckpt\ner.ckpt
+2018-04-10 23:59:46,122 - train.log - INFO - Reading model parameters from ckpt\ner.ckpt

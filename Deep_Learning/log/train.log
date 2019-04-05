@@ -1,0 +1,1907 @@
+2018-04-10 23:49:21,711 - log\train.log - INFO - model_type     :	bilstm
+2018-04-10 23:49:21,711 - log\train.log - INFO - num_chars      :	889
+2018-04-10 23:49:21,711 - log\train.log - INFO - char_dim       :	100
+2018-04-10 23:49:21,712 - log\train.log - INFO - num_tags       :	7
+2018-04-10 23:49:21,712 - log\train.log - INFO - seg_dim        :	20
+2018-04-10 23:49:21,713 - log\train.log - INFO - lstm_dim       :	100
+2018-04-10 23:49:21,714 - log\train.log - INFO - batch_size     :	20.0
+2018-04-10 23:49:21,717 - log\train.log - INFO - emb_file       :	data\vec.txt
+2018-04-10 23:49:21,717 - log\train.log - INFO - clip           :	5.0
+2018-04-10 23:49:21,721 - log\train.log - INFO - dropout_keep   :	0.5
+2018-04-10 23:49:21,721 - log\train.log - INFO - optimizer      :	adam
+2018-04-10 23:49:21,747 - log\train.log - INFO - lr             :	0.001
+2018-04-10 23:49:21,748 - log\train.log - INFO - tag_schema     :	iobes
+2018-04-10 23:49:21,751 - log\train.log - INFO - pre_emb        :	True
+2018-04-10 23:49:21,754 - log\train.log - INFO - zeros          :	False
+2018-04-10 23:49:21,754 - log\train.log - INFO - lower          :	True
+2018-04-10 23:49:23,651 - log\train.log - INFO - Created model with fresh parameters.
+2018-04-10 23:49:25,136 - log\train.log - INFO - Load pre-trained embedding.
+2018-04-10 23:49:25,136 - log\train.log - INFO - start training
+2018-04-10 23:49:26,840 - log\train.log - INFO - evaluate:dev
+2018-04-10 23:49:27,056 - log\train.log - INFO - processed 760 tokens with 183 phrases; found: 193 phrases; correct: 168.
+
+2018-04-10 23:49:27,058 - log\train.log - INFO - accuracy:  96.97%; precision:  87.05%; recall:  91.80%; FB1:  89.36
+
+2018-04-10 23:49:27,059 - log\train.log - INFO -               ORG: precision:  89.13%; recall:  94.25%; FB1:  91.62  92
+
+2018-04-10 23:49:27,063 - log\train.log - INFO -               PER: precision:  85.15%; recall:  89.58%; FB1:  87.31  101
+
+2018-04-10 23:49:27,159 - log\train.log - INFO - new best dev f1 score:89.360
+2018-04-10 23:49:27,567 - log\train.log - INFO - model saved
+2018-04-10 23:49:27,567 - log\train.log - INFO - evaluate:test
+2018-04-10 23:49:27,643 - log\train.log - INFO - processed 732 tokens with 189 phrases; found: 207 phrases; correct: 165.
+
+2018-04-10 23:49:27,646 - log\train.log - INFO - accuracy:  96.04%; precision:  79.71%; recall:  87.30%; FB1:  83.33
+
+2018-04-10 23:49:27,650 - log\train.log - INFO -               ORG: precision:  84.62%; recall:  91.67%; FB1:  88.00  91
+
+2018-04-10 23:49:27,651 - log\train.log - INFO -               PER: precision:  75.86%; recall:  83.81%; FB1:  79.64  116
+
+2018-04-10 23:49:27,749 - log\train.log - INFO - new best test f1 score:83.330
+2018-04-10 23:49:28,068 - log\train.log - INFO - iteration:2 step:27/73, NER loss: 2.740767
+2018-04-10 23:49:28,640 - log\train.log - INFO - evaluate:dev
+2018-04-10 23:49:28,717 - log\train.log - INFO - processed 760 tokens with 183 phrases; found: 185 phrases; correct: 181.
+
+2018-04-10 23:49:28,719 - log\train.log - INFO - accuracy:  99.74%; precision:  97.84%; recall:  98.91%; FB1:  98.37
+
+2018-04-10 23:49:28,723 - log\train.log - INFO -               ORG: precision:  97.73%; recall:  98.85%; FB1:  98.29  88
+
+2018-04-10 23:49:28,724 - log\train.log - INFO -               PER: precision:  97.94%; recall:  98.96%; FB1:  98.45  97
+
+2018-04-10 23:49:28,825 - log\train.log - INFO - new best dev f1 score:98.370
+2018-04-10 23:49:29,162 - log\train.log - INFO - model saved
+2018-04-10 23:49:29,163 - log\train.log - INFO - evaluate:test
+2018-04-10 23:49:29,250 - log\train.log - INFO - processed 732 tokens with 189 phrases; found: 192 phrases; correct: 184.
+
+2018-04-10 23:49:29,252 - log\train.log - INFO - accuracy:  99.04%; precision:  95.83%; recall:  97.35%; FB1:  96.59
+
+2018-04-10 23:49:29,257 - log\train.log - INFO -               ORG: precision:  93.02%; recall:  95.24%; FB1:  94.12  86
+
+2018-04-10 23:49:29,258 - log\train.log - INFO -               PER: precision:  98.11%; recall:  99.05%; FB1:  98.58  106
+
+2018-04-10 23:49:29,374 - log\train.log - INFO - new best test f1 score:96.590
+2018-04-10 23:49:30,009 - log\train.log - INFO - iteration:3 step:54/73, NER loss: 0.419427
+2018-04-10 23:49:30,236 - log\train.log - INFO - evaluate:dev
+2018-04-10 23:49:30,302 - log\train.log - INFO - processed 760 tokens with 183 phrases; found: 185 phrases; correct: 181.
+
+2018-04-10 23:49:30,303 - log\train.log - INFO - accuracy:  99.74%; precision:  97.84%; recall:  98.91%; FB1:  98.37
+
+2018-04-10 23:49:30,309 - log\train.log - INFO -               ORG: precision:  97.73%; recall:  98.85%; FB1:  98.29  88
+
+2018-04-10 23:49:30,309 - log\train.log - INFO -               PER: precision:  97.94%; recall:  98.96%; FB1:  98.45  97
+
+2018-04-10 23:49:30,310 - log\train.log - INFO - evaluate:test
+2018-04-10 23:49:30,375 - log\train.log - INFO - processed 732 tokens with 189 phrases; found: 190 phrases; correct: 187.
+
+2018-04-10 23:49:30,377 - log\train.log - INFO - accuracy:  99.45%; precision:  98.42%; recall:  98.94%; FB1:  98.68
+
+2018-04-10 23:49:30,382 - log\train.log - INFO -               ORG: precision:  98.81%; recall:  98.81%; FB1:  98.81  84
+
+2018-04-10 23:49:30,383 - log\train.log - INFO -               PER: precision:  98.11%; recall:  99.05%; FB1:  98.58  106
+
+2018-04-10 23:49:30,450 - log\train.log - INFO - new best test f1 score:98.680
+2018-04-10 23:49:31,263 - log\train.log - INFO - evaluate:dev
+2018-04-10 23:49:31,328 - log\train.log - INFO - processed 760 tokens with 183 phrases; found: 184 phrases; correct: 182.
+
+2018-04-10 23:49:31,330 - log\train.log - INFO - accuracy:  99.87%; precision:  98.91%; recall:  99.45%; FB1:  99.18
+
+2018-04-10 23:49:31,334 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  87
+
+2018-04-10 23:49:31,335 - log\train.log - INFO -               PER: precision:  97.94%; recall:  98.96%; FB1:  98.45  97
+
+2018-04-10 23:49:31,405 - log\train.log - INFO - new best dev f1 score:99.180
+2018-04-10 23:49:31,758 - log\train.log - INFO - model saved
+2018-04-10 23:49:31,758 - log\train.log - INFO - evaluate:test
+2018-04-10 23:49:31,828 - log\train.log - INFO - processed 732 tokens with 189 phrases; found: 189 phrases; correct: 187.
+
+2018-04-10 23:49:31,830 - log\train.log - INFO - accuracy:  99.73%; precision:  98.94%; recall:  98.94%; FB1:  98.94
+
+2018-04-10 23:49:31,834 - log\train.log - INFO -               ORG: precision:  98.81%; recall:  98.81%; FB1:  98.81  84
+
+2018-04-10 23:49:31,835 - log\train.log - INFO -               PER: precision:  99.05%; recall:  99.05%; FB1:  99.05  105
+
+2018-04-10 23:49:31,914 - log\train.log - INFO - new best test f1 score:98.940
+2018-04-10 23:49:32,013 - log\train.log - INFO - iteration:5 step:8/73, NER loss: 0.156616
+2018-04-10 23:49:32,968 - log\train.log - INFO - evaluate:dev
+2018-04-10 23:49:33,066 - log\train.log - INFO - processed 760 tokens with 183 phrases; found: 183 phrases; correct: 183.
+
+2018-04-10 23:49:33,068 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:49:33,074 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  87
+
+2018-04-10 23:49:33,074 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  96
+
+2018-04-10 23:49:33,193 - log\train.log - INFO - new best dev f1 score:100.000
+2018-04-10 23:49:33,718 - log\train.log - INFO - model saved
+2018-04-10 23:49:33,718 - log\train.log - INFO - evaluate:test
+2018-04-10 23:49:33,846 - log\train.log - INFO - processed 732 tokens with 189 phrases; found: 191 phrases; correct: 188.
+
+2018-04-10 23:49:33,849 - log\train.log - INFO - accuracy:  99.59%; precision:  98.43%; recall:  99.47%; FB1:  98.95
+
+2018-04-10 23:49:33,853 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  84
+
+2018-04-10 23:49:33,854 - log\train.log - INFO -               PER: precision:  97.20%; recall:  99.05%; FB1:  98.11  107
+
+2018-04-10 23:49:33,957 - log\train.log - INFO - new best test f1 score:98.950
+2018-04-10 23:49:34,637 - log\train.log - INFO - iteration:6 step:35/73, NER loss: 0.102806
+2018-04-10 23:49:35,309 - log\train.log - INFO - evaluate:dev
+2018-04-10 23:49:35,441 - log\train.log - INFO - processed 760 tokens with 183 phrases; found: 183 phrases; correct: 183.
+
+2018-04-10 23:49:35,443 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:49:35,448 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  87
+
+2018-04-10 23:49:35,449 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  96
+
+2018-04-10 23:49:35,451 - log\train.log - INFO - evaluate:test
+2018-04-10 23:49:35,582 - log\train.log - INFO - processed 732 tokens with 189 phrases; found: 189 phrases; correct: 187.
+
+2018-04-10 23:49:35,584 - log\train.log - INFO - accuracy:  99.73%; precision:  98.94%; recall:  98.94%; FB1:  98.94
+
+2018-04-10 23:49:35,589 - log\train.log - INFO -               ORG: precision:  98.81%; recall:  98.81%; FB1:  98.81  84
+
+2018-04-10 23:49:35,591 - log\train.log - INFO -               PER: precision:  99.05%; recall:  99.05%; FB1:  99.05  105
+
+2018-04-10 23:49:36,748 - log\train.log - INFO - iteration:7 step:62/73, NER loss: 0.065013
+2018-04-10 23:49:36,984 - log\train.log - INFO - evaluate:dev
+2018-04-10 23:49:37,083 - log\train.log - INFO - processed 760 tokens with 183 phrases; found: 183 phrases; correct: 183.
+
+2018-04-10 23:49:37,086 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:49:37,091 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  87
+
+2018-04-10 23:49:37,092 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  96
+
+2018-04-10 23:49:37,095 - log\train.log - INFO - evaluate:test
+2018-04-10 23:49:37,222 - log\train.log - INFO - processed 732 tokens with 189 phrases; found: 189 phrases; correct: 187.
+
+2018-04-10 23:49:37,224 - log\train.log - INFO - accuracy:  99.73%; precision:  98.94%; recall:  98.94%; FB1:  98.94
+
+2018-04-10 23:49:37,231 - log\train.log - INFO -               ORG: precision:  98.81%; recall:  98.81%; FB1:  98.81  84
+
+2018-04-10 23:49:37,232 - log\train.log - INFO -               PER: precision:  99.05%; recall:  99.05%; FB1:  99.05  105
+
+2018-04-10 23:49:38,620 - log\train.log - INFO - evaluate:dev
+2018-04-10 23:49:38,748 - log\train.log - INFO - processed 760 tokens with 183 phrases; found: 183 phrases; correct: 183.
+
+2018-04-10 23:49:38,751 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:49:38,756 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  87
+
+2018-04-10 23:49:38,757 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  96
+
+2018-04-10 23:49:38,760 - log\train.log - INFO - evaluate:test
+2018-04-10 23:49:38,893 - log\train.log - INFO - processed 732 tokens with 189 phrases; found: 189 phrases; correct: 187.
+
+2018-04-10 23:49:38,896 - log\train.log - INFO - accuracy:  99.73%; precision:  98.94%; recall:  98.94%; FB1:  98.94
+
+2018-04-10 23:49:38,900 - log\train.log - INFO -               ORG: precision:  98.81%; recall:  98.81%; FB1:  98.81  84
+
+2018-04-10 23:49:38,902 - log\train.log - INFO -               PER: precision:  99.05%; recall:  99.05%; FB1:  99.05  105
+
+2018-04-10 23:49:39,223 - log\train.log - INFO - iteration:9 step:16/73, NER loss: 0.032952
+2018-04-10 23:49:40,321 - log\train.log - INFO - evaluate:dev
+2018-04-10 23:49:40,433 - log\train.log - INFO - processed 760 tokens with 183 phrases; found: 183 phrases; correct: 183.
+
+2018-04-10 23:49:40,435 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:49:40,440 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  87
+
+2018-04-10 23:49:40,440 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  96
+
+2018-04-10 23:49:40,442 - log\train.log - INFO - evaluate:test
+2018-04-10 23:49:40,530 - log\train.log - INFO - processed 732 tokens with 189 phrases; found: 189 phrases; correct: 187.
+
+2018-04-10 23:49:40,532 - log\train.log - INFO - accuracy:  99.73%; precision:  98.94%; recall:  98.94%; FB1:  98.94
+
+2018-04-10 23:49:40,537 - log\train.log - INFO -               ORG: precision:  98.81%; recall:  98.81%; FB1:  98.81  84
+
+2018-04-10 23:49:40,538 - log\train.log - INFO -               PER: precision:  99.05%; recall:  99.05%; FB1:  99.05  105
+
+2018-04-10 23:49:41,265 - log\train.log - INFO - iteration:10 step:43/73, NER loss: 0.019803
+2018-04-10 23:49:41,869 - log\train.log - INFO - evaluate:dev
+2018-04-10 23:49:41,982 - log\train.log - INFO - processed 760 tokens with 183 phrases; found: 183 phrases; correct: 183.
+
+2018-04-10 23:49:41,984 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:49:41,989 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  87
+
+2018-04-10 23:49:41,990 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  96
+
+2018-04-10 23:49:41,992 - log\train.log - INFO - evaluate:test
+2018-04-10 23:49:42,100 - log\train.log - INFO - processed 732 tokens with 189 phrases; found: 189 phrases; correct: 187.
+
+2018-04-10 23:49:42,103 - log\train.log - INFO - accuracy:  99.73%; precision:  98.94%; recall:  98.94%; FB1:  98.94
+
+2018-04-10 23:49:42,109 - log\train.log - INFO -               ORG: precision:  98.81%; recall:  98.81%; FB1:  98.81  84
+
+2018-04-10 23:49:42,109 - log\train.log - INFO -               PER: precision:  99.05%; recall:  99.05%; FB1:  99.05  105
+
+2018-04-10 23:49:43,502 - log\train.log - INFO - iteration:11 step:70/73, NER loss: 0.013658
+2018-04-10 23:49:43,565 - log\train.log - INFO - evaluate:dev
+2018-04-10 23:49:43,698 - log\train.log - INFO - processed 760 tokens with 183 phrases; found: 183 phrases; correct: 183.
+
+2018-04-10 23:49:43,701 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:49:43,706 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  87
+
+2018-04-10 23:49:43,708 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  96
+
+2018-04-10 23:49:43,709 - log\train.log - INFO - evaluate:test
+2018-04-10 23:49:43,856 - log\train.log - INFO - processed 732 tokens with 189 phrases; found: 189 phrases; correct: 187.
+
+2018-04-10 23:49:43,862 - log\train.log - INFO - accuracy:  99.73%; precision:  98.94%; recall:  98.94%; FB1:  98.94
+
+2018-04-10 23:49:43,863 - log\train.log - INFO -               ORG: precision:  98.81%; recall:  98.81%; FB1:  98.81  84
+
+2018-04-10 23:49:43,865 - log\train.log - INFO -               PER: precision:  99.05%; recall:  99.05%; FB1:  99.05  105
+
+2018-04-10 23:49:45,401 - log\train.log - INFO - evaluate:dev
+2018-04-10 23:49:45,533 - log\train.log - INFO - processed 760 tokens with 183 phrases; found: 183 phrases; correct: 183.
+
+2018-04-10 23:49:45,534 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:49:45,539 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  87
+
+2018-04-10 23:49:45,540 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  96
+
+2018-04-10 23:49:45,541 - log\train.log - INFO - evaluate:test
+2018-04-10 23:49:45,664 - log\train.log - INFO - processed 732 tokens with 189 phrases; found: 189 phrases; correct: 187.
+
+2018-04-10 23:49:45,667 - log\train.log - INFO - accuracy:  99.73%; precision:  98.94%; recall:  98.94%; FB1:  98.94
+
+2018-04-10 23:49:45,672 - log\train.log - INFO -               ORG: precision:  98.81%; recall:  98.81%; FB1:  98.81  84
+
+2018-04-10 23:49:45,673 - log\train.log - INFO -               PER: precision:  99.05%; recall:  99.05%; FB1:  99.05  105
+
+2018-04-10 23:49:46,224 - log\train.log - INFO - iteration:13 step:24/73, NER loss: 0.009133
+2018-04-10 23:49:47,174 - log\train.log - INFO - evaluate:dev
+2018-04-10 23:49:47,348 - log\train.log - INFO - processed 760 tokens with 183 phrases; found: 183 phrases; correct: 183.
+
+2018-04-10 23:49:47,351 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:49:47,355 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  87
+
+2018-04-10 23:49:47,357 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  96
+
+2018-04-10 23:49:47,359 - log\train.log - INFO - evaluate:test
+2018-04-10 23:49:47,528 - log\train.log - INFO - processed 732 tokens with 189 phrases; found: 189 phrases; correct: 187.
+
+2018-04-10 23:49:47,531 - log\train.log - INFO - accuracy:  99.73%; precision:  98.94%; recall:  98.94%; FB1:  98.94
+
+2018-04-10 23:49:47,536 - log\train.log - INFO -               ORG: precision:  98.81%; recall:  98.81%; FB1:  98.81  84
+
+2018-04-10 23:49:47,537 - log\train.log - INFO -               PER: precision:  99.05%; recall:  99.05%; FB1:  99.05  105
+
+2018-04-10 23:49:48,625 - log\train.log - INFO - iteration:14 step:51/73, NER loss: 0.007608
+2018-04-10 23:49:49,124 - log\train.log - INFO - evaluate:dev
+2018-04-10 23:49:49,269 - log\train.log - INFO - processed 760 tokens with 183 phrases; found: 183 phrases; correct: 183.
+
+2018-04-10 23:49:49,272 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:49:49,278 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  87
+
+2018-04-10 23:49:49,279 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  96
+
+2018-04-10 23:49:49,284 - log\train.log - INFO - evaluate:test
+2018-04-10 23:49:49,423 - log\train.log - INFO - processed 732 tokens with 189 phrases; found: 190 phrases; correct: 188.
+
+2018-04-10 23:49:49,425 - log\train.log - INFO - accuracy:  99.86%; precision:  98.95%; recall:  99.47%; FB1:  99.21
+
+2018-04-10 23:49:49,430 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  84
+
+2018-04-10 23:49:49,431 - log\train.log - INFO -               PER: precision:  98.11%; recall:  99.05%; FB1:  98.58  106
+
+2018-04-10 23:49:49,554 - log\train.log - INFO - new best test f1 score:99.210
+2018-04-10 23:49:51,002 - log\train.log - INFO - evaluate:dev
+2018-04-10 23:49:51,122 - log\train.log - INFO - processed 760 tokens with 183 phrases; found: 183 phrases; correct: 183.
+
+2018-04-10 23:49:51,128 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:49:51,129 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  87
+
+2018-04-10 23:49:51,130 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  96
+
+2018-04-10 23:49:51,131 - log\train.log - INFO - evaluate:test
+2018-04-10 23:49:51,269 - log\train.log - INFO - processed 732 tokens with 189 phrases; found: 189 phrases; correct: 187.
+
+2018-04-10 23:49:51,272 - log\train.log - INFO - accuracy:  99.73%; precision:  98.94%; recall:  98.94%; FB1:  98.94
+
+2018-04-10 23:49:51,277 - log\train.log - INFO -               ORG: precision:  98.81%; recall:  98.81%; FB1:  98.81  84
+
+2018-04-10 23:49:51,279 - log\train.log - INFO -               PER: precision:  99.05%; recall:  99.05%; FB1:  99.05  105
+
+2018-04-10 23:49:51,421 - log\train.log - INFO - iteration:16 step:5/73, NER loss: 0.007789
+2018-04-10 23:49:52,669 - log\train.log - INFO - evaluate:dev
+2018-04-10 23:49:52,766 - log\train.log - INFO - processed 760 tokens with 183 phrases; found: 183 phrases; correct: 183.
+
+2018-04-10 23:49:52,768 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:49:52,774 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  87
+
+2018-04-10 23:49:52,774 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  96
+
+2018-04-10 23:49:52,776 - log\train.log - INFO - evaluate:test
+2018-04-10 23:49:52,901 - log\train.log - INFO - processed 732 tokens with 189 phrases; found: 189 phrases; correct: 189.
+
+2018-04-10 23:49:52,903 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:49:52,908 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  84
+
+2018-04-10 23:49:52,909 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  105
+
+2018-04-10 23:49:52,998 - log\train.log - INFO - new best test f1 score:100.000
+2018-04-10 23:49:53,530 - log\train.log - INFO - iteration:17 step:32/73, NER loss: 0.004142
+2018-04-10 23:49:54,355 - log\train.log - INFO - evaluate:dev
+2018-04-10 23:49:54,471 - log\train.log - INFO - processed 760 tokens with 183 phrases; found: 183 phrases; correct: 183.
+
+2018-04-10 23:49:54,473 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:49:54,478 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  87
+
+2018-04-10 23:49:54,480 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  96
+
+2018-04-10 23:49:54,482 - log\train.log - INFO - evaluate:test
+2018-04-10 23:49:54,610 - log\train.log - INFO - processed 732 tokens with 189 phrases; found: 189 phrases; correct: 187.
+
+2018-04-10 23:49:54,612 - log\train.log - INFO - accuracy:  99.73%; precision:  98.94%; recall:  98.94%; FB1:  98.94
+
+2018-04-10 23:49:54,617 - log\train.log - INFO -               ORG: precision:  98.81%; recall:  98.81%; FB1:  98.81  84
+
+2018-04-10 23:49:54,618 - log\train.log - INFO -               PER: precision:  99.05%; recall:  99.05%; FB1:  99.05  105
+
+2018-04-10 23:49:55,750 - log\train.log - INFO - iteration:18 step:59/73, NER loss: 0.003504
+2018-04-10 23:49:55,982 - log\train.log - INFO - evaluate:dev
+2018-04-10 23:49:56,072 - log\train.log - INFO - processed 760 tokens with 183 phrases; found: 183 phrases; correct: 183.
+
+2018-04-10 23:49:56,074 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:49:56,078 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  87
+
+2018-04-10 23:49:56,079 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  96
+
+2018-04-10 23:49:56,080 - log\train.log - INFO - evaluate:test
+2018-04-10 23:49:56,185 - log\train.log - INFO - processed 732 tokens with 189 phrases; found: 189 phrases; correct: 187.
+
+2018-04-10 23:49:56,187 - log\train.log - INFO - accuracy:  99.73%; precision:  98.94%; recall:  98.94%; FB1:  98.94
+
+2018-04-10 23:49:56,194 - log\train.log - INFO -               ORG: precision:  98.81%; recall:  98.81%; FB1:  98.81  84
+
+2018-04-10 23:49:56,194 - log\train.log - INFO -               PER: precision:  99.05%; recall:  99.05%; FB1:  99.05  105
+
+2018-04-10 23:49:57,537 - log\train.log - INFO - evaluate:dev
+2018-04-10 23:49:57,632 - log\train.log - INFO - processed 760 tokens with 183 phrases; found: 183 phrases; correct: 183.
+
+2018-04-10 23:49:57,634 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:49:57,639 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  87
+
+2018-04-10 23:49:57,640 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  96
+
+2018-04-10 23:49:57,642 - log\train.log - INFO - evaluate:test
+2018-04-10 23:49:57,748 - log\train.log - INFO - processed 732 tokens with 189 phrases; found: 189 phrases; correct: 187.
+
+2018-04-10 23:49:57,750 - log\train.log - INFO - accuracy:  99.73%; precision:  98.94%; recall:  98.94%; FB1:  98.94
+
+2018-04-10 23:49:57,755 - log\train.log - INFO -               ORG: precision:  98.81%; recall:  98.81%; FB1:  98.81  84
+
+2018-04-10 23:49:57,756 - log\train.log - INFO -               PER: precision:  99.05%; recall:  99.05%; FB1:  99.05  105
+
+2018-04-10 23:49:58,067 - log\train.log - INFO - iteration:20 step:13/73, NER loss: 0.003951
+2018-04-10 23:49:59,243 - log\train.log - INFO - evaluate:dev
+2018-04-10 23:49:59,368 - log\train.log - INFO - processed 760 tokens with 183 phrases; found: 183 phrases; correct: 183.
+
+2018-04-10 23:49:59,371 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:49:59,375 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  87
+
+2018-04-10 23:49:59,376 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  96
+
+2018-04-10 23:49:59,378 - log\train.log - INFO - evaluate:test
+2018-04-10 23:49:59,496 - log\train.log - INFO - processed 732 tokens with 189 phrases; found: 189 phrases; correct: 187.
+
+2018-04-10 23:49:59,498 - log\train.log - INFO - accuracy:  99.73%; precision:  98.94%; recall:  98.94%; FB1:  98.94
+
+2018-04-10 23:49:59,503 - log\train.log - INFO -               ORG: precision:  98.81%; recall:  98.81%; FB1:  98.81  84
+
+2018-04-10 23:49:59,504 - log\train.log - INFO -               PER: precision:  99.05%; recall:  99.05%; FB1:  99.05  105
+
+2018-04-10 23:50:00,249 - log\train.log - INFO - iteration:21 step:40/73, NER loss: 0.002707
+2018-04-10 23:50:00,942 - log\train.log - INFO - evaluate:dev
+2018-04-10 23:50:01,070 - log\train.log - INFO - processed 760 tokens with 183 phrases; found: 183 phrases; correct: 183.
+
+2018-04-10 23:50:01,072 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:50:01,077 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  87
+
+2018-04-10 23:50:01,079 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  96
+
+2018-04-10 23:50:01,081 - log\train.log - INFO - evaluate:test
+2018-04-10 23:50:01,201 - log\train.log - INFO - processed 732 tokens with 189 phrases; found: 189 phrases; correct: 187.
+
+2018-04-10 23:50:01,208 - log\train.log - INFO - accuracy:  99.73%; precision:  98.94%; recall:  98.94%; FB1:  98.94
+
+2018-04-10 23:50:01,209 - log\train.log - INFO -               ORG: precision:  98.81%; recall:  98.81%; FB1:  98.81  84
+
+2018-04-10 23:50:01,210 - log\train.log - INFO -               PER: precision:  99.05%; recall:  99.05%; FB1:  99.05  105
+
+2018-04-10 23:50:02,563 - log\train.log - INFO - iteration:22 step:67/73, NER loss: 0.002094
+2018-04-10 23:50:02,668 - log\train.log - INFO - evaluate:dev
+2018-04-10 23:50:02,825 - log\train.log - INFO - processed 760 tokens with 183 phrases; found: 183 phrases; correct: 183.
+
+2018-04-10 23:50:02,827 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:50:02,833 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  87
+
+2018-04-10 23:50:02,834 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  96
+
+2018-04-10 23:50:02,837 - log\train.log - INFO - evaluate:test
+2018-04-10 23:50:02,985 - log\train.log - INFO - processed 732 tokens with 189 phrases; found: 189 phrases; correct: 187.
+
+2018-04-10 23:50:02,991 - log\train.log - INFO - accuracy:  99.73%; precision:  98.94%; recall:  98.94%; FB1:  98.94
+
+2018-04-10 23:50:02,992 - log\train.log - INFO -               ORG: precision:  98.81%; recall:  98.81%; FB1:  98.81  84
+
+2018-04-10 23:50:02,993 - log\train.log - INFO -               PER: precision:  99.05%; recall:  99.05%; FB1:  99.05  105
+
+2018-04-10 23:50:04,450 - log\train.log - INFO - evaluate:dev
+2018-04-10 23:50:04,575 - log\train.log - INFO - processed 760 tokens with 183 phrases; found: 183 phrases; correct: 183.
+
+2018-04-10 23:50:04,578 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:50:04,585 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  87
+
+2018-04-10 23:50:04,590 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  96
+
+2018-04-10 23:50:04,595 - log\train.log - INFO - evaluate:test
+2018-04-10 23:50:04,724 - log\train.log - INFO - processed 732 tokens with 189 phrases; found: 189 phrases; correct: 187.
+
+2018-04-10 23:50:04,726 - log\train.log - INFO - accuracy:  99.73%; precision:  98.94%; recall:  98.94%; FB1:  98.94
+
+2018-04-10 23:50:04,730 - log\train.log - INFO -               ORG: precision:  98.81%; recall:  98.81%; FB1:  98.81  84
+
+2018-04-10 23:50:04,731 - log\train.log - INFO -               PER: precision:  99.05%; recall:  99.05%; FB1:  99.05  105
+
+2018-04-10 23:50:05,111 - log\train.log - INFO - iteration:24 step:21/73, NER loss: 0.002249
+2018-04-10 23:50:06,110 - log\train.log - INFO - evaluate:dev
+2018-04-10 23:50:06,224 - log\train.log - INFO - processed 760 tokens with 183 phrases; found: 183 phrases; correct: 183.
+
+2018-04-10 23:50:06,227 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:50:06,232 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  87
+
+2018-04-10 23:50:06,233 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  96
+
+2018-04-10 23:50:06,235 - log\train.log - INFO - evaluate:test
+2018-04-10 23:50:06,370 - log\train.log - INFO - processed 732 tokens with 189 phrases; found: 189 phrases; correct: 187.
+
+2018-04-10 23:50:06,373 - log\train.log - INFO - accuracy:  99.73%; precision:  98.94%; recall:  98.94%; FB1:  98.94
+
+2018-04-10 23:50:06,378 - log\train.log - INFO -               ORG: precision:  98.81%; recall:  98.81%; FB1:  98.81  84
+
+2018-04-10 23:50:06,378 - log\train.log - INFO -               PER: precision:  99.05%; recall:  99.05%; FB1:  99.05  105
+
+2018-04-10 23:50:07,229 - log\train.log - INFO - iteration:25 step:48/73, NER loss: 0.001882
+2018-04-10 23:50:07,716 - log\train.log - INFO - evaluate:dev
+2018-04-10 23:50:07,802 - log\train.log - INFO - processed 760 tokens with 183 phrases; found: 183 phrases; correct: 183.
+
+2018-04-10 23:50:07,805 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:50:07,810 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  87
+
+2018-04-10 23:50:07,810 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  96
+
+2018-04-10 23:50:07,812 - log\train.log - INFO - evaluate:test
+2018-04-10 23:50:07,932 - log\train.log - INFO - processed 732 tokens with 189 phrases; found: 189 phrases; correct: 187.
+
+2018-04-10 23:50:07,940 - log\train.log - INFO - accuracy:  99.73%; precision:  98.94%; recall:  98.94%; FB1:  98.94
+
+2018-04-10 23:50:07,941 - log\train.log - INFO -               ORG: precision:  98.81%; recall:  98.81%; FB1:  98.81  84
+
+2018-04-10 23:50:07,942 - log\train.log - INFO -               PER: precision:  99.05%; recall:  99.05%; FB1:  99.05  105
+
+2018-04-10 23:50:09,247 - log\train.log - INFO - evaluate:dev
+2018-04-10 23:50:09,345 - log\train.log - INFO - processed 760 tokens with 183 phrases; found: 183 phrases; correct: 183.
+
+2018-04-10 23:50:09,347 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:50:09,353 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  87
+
+2018-04-10 23:50:09,354 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  96
+
+2018-04-10 23:50:09,356 - log\train.log - INFO - evaluate:test
+2018-04-10 23:50:09,468 - log\train.log - INFO - processed 732 tokens with 189 phrases; found: 190 phrases; correct: 188.
+
+2018-04-10 23:50:09,471 - log\train.log - INFO - accuracy:  99.86%; precision:  98.95%; recall:  99.47%; FB1:  99.21
+
+2018-04-10 23:50:09,476 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  84
+
+2018-04-10 23:50:09,477 - log\train.log - INFO -               PER: precision:  98.11%; recall:  99.05%; FB1:  98.58  106
+
+2018-04-10 23:50:09,536 - log\train.log - INFO - iteration:27 step:2/73, NER loss: 0.008335
+2018-04-10 23:50:10,814 - log\train.log - INFO - evaluate:dev
+2018-04-10 23:50:10,923 - log\train.log - INFO - processed 760 tokens with 183 phrases; found: 183 phrases; correct: 183.
+
+2018-04-10 23:50:10,925 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:50:10,929 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  87
+
+2018-04-10 23:50:10,930 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  96
+
+2018-04-10 23:50:10,931 - log\train.log - INFO - evaluate:test
+2018-04-10 23:50:11,025 - log\train.log - INFO - processed 732 tokens with 189 phrases; found: 189 phrases; correct: 187.
+
+2018-04-10 23:50:11,027 - log\train.log - INFO - accuracy:  99.73%; precision:  98.94%; recall:  98.94%; FB1:  98.94
+
+2018-04-10 23:50:11,032 - log\train.log - INFO -               ORG: precision:  98.81%; recall:  98.81%; FB1:  98.81  84
+
+2018-04-10 23:50:11,033 - log\train.log - INFO -               PER: precision:  99.05%; recall:  99.05%; FB1:  99.05  105
+
+2018-04-10 23:50:11,553 - log\train.log - INFO - iteration:28 step:29/73, NER loss: 0.001846
+2018-04-10 23:50:12,338 - log\train.log - INFO - evaluate:dev
+2018-04-10 23:50:12,466 - log\train.log - INFO - processed 760 tokens with 183 phrases; found: 183 phrases; correct: 183.
+
+2018-04-10 23:50:12,472 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:50:12,473 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  87
+
+2018-04-10 23:50:12,474 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  96
+
+2018-04-10 23:50:12,476 - log\train.log - INFO - evaluate:test
+2018-04-10 23:50:12,593 - log\train.log - INFO - processed 732 tokens with 189 phrases; found: 189 phrases; correct: 187.
+
+2018-04-10 23:50:12,596 - log\train.log - INFO - accuracy:  99.86%; precision:  98.94%; recall:  98.94%; FB1:  98.94
+
+2018-04-10 23:50:12,600 - log\train.log - INFO -               ORG: precision:  98.81%; recall:  98.81%; FB1:  98.81  84
+
+2018-04-10 23:50:12,600 - log\train.log - INFO -               PER: precision:  99.05%; recall:  99.05%; FB1:  99.05  105
+
+2018-04-10 23:50:13,589 - log\train.log - INFO - iteration:29 step:56/73, NER loss: 0.001756
+2018-04-10 23:50:13,887 - log\train.log - INFO - evaluate:dev
+2018-04-10 23:50:14,008 - log\train.log - INFO - processed 760 tokens with 183 phrases; found: 183 phrases; correct: 183.
+
+2018-04-10 23:50:14,010 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:50:14,015 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  87
+
+2018-04-10 23:50:14,016 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  96
+
+2018-04-10 23:50:14,017 - log\train.log - INFO - evaluate:test
+2018-04-10 23:50:14,096 - log\train.log - INFO - processed 732 tokens with 189 phrases; found: 189 phrases; correct: 187.
+
+2018-04-10 23:50:14,099 - log\train.log - INFO - accuracy:  99.73%; precision:  98.94%; recall:  98.94%; FB1:  98.94
+
+2018-04-10 23:50:14,105 - log\train.log - INFO -               ORG: precision:  98.81%; recall:  98.81%; FB1:  98.81  84
+
+2018-04-10 23:50:14,105 - log\train.log - INFO -               PER: precision:  99.05%; recall:  99.05%; FB1:  99.05  105
+
+2018-04-10 23:50:15,543 - log\train.log - INFO - evaluate:dev
+2018-04-10 23:50:15,664 - log\train.log - INFO - processed 760 tokens with 183 phrases; found: 183 phrases; correct: 183.
+
+2018-04-10 23:50:15,667 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:50:15,672 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  87
+
+2018-04-10 23:50:15,673 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  96
+
+2018-04-10 23:50:15,674 - log\train.log - INFO - evaluate:test
+2018-04-10 23:50:15,805 - log\train.log - INFO - processed 732 tokens with 189 phrases; found: 189 phrases; correct: 187.
+
+2018-04-10 23:50:15,808 - log\train.log - INFO - accuracy:  99.73%; precision:  98.94%; recall:  98.94%; FB1:  98.94
+
+2018-04-10 23:50:15,812 - log\train.log - INFO -               ORG: precision:  98.81%; recall:  98.81%; FB1:  98.81  84
+
+2018-04-10 23:50:15,813 - log\train.log - INFO -               PER: precision:  99.05%; recall:  99.05%; FB1:  99.05  105
+
+2018-04-10 23:50:15,986 - log\train.log - INFO - iteration:31 step:10/73, NER loss: 0.001530
+2018-04-10 23:50:17,258 - log\train.log - INFO - evaluate:dev
+2018-04-10 23:50:17,378 - log\train.log - INFO - processed 760 tokens with 183 phrases; found: 183 phrases; correct: 183.
+
+2018-04-10 23:50:17,381 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:50:17,386 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  87
+
+2018-04-10 23:50:17,386 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  96
+
+2018-04-10 23:50:17,388 - log\train.log - INFO - evaluate:test
+2018-04-10 23:50:17,485 - log\train.log - INFO - processed 732 tokens with 189 phrases; found: 189 phrases; correct: 187.
+
+2018-04-10 23:50:17,487 - log\train.log - INFO - accuracy:  99.73%; precision:  98.94%; recall:  98.94%; FB1:  98.94
+
+2018-04-10 23:50:17,495 - log\train.log - INFO -               ORG: precision:  98.81%; recall:  98.81%; FB1:  98.81  84
+
+2018-04-10 23:50:17,497 - log\train.log - INFO -               PER: precision:  99.05%; recall:  99.05%; FB1:  99.05  105
+
+2018-04-10 23:50:18,198 - log\train.log - INFO - iteration:32 step:37/73, NER loss: 0.000855
+2018-04-10 23:50:18,948 - log\train.log - INFO - evaluate:dev
+2018-04-10 23:50:19,065 - log\train.log - INFO - processed 760 tokens with 183 phrases; found: 183 phrases; correct: 183.
+
+2018-04-10 23:50:19,071 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:50:19,072 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  87
+
+2018-04-10 23:50:19,073 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  96
+
+2018-04-10 23:50:19,075 - log\train.log - INFO - evaluate:test
+2018-04-10 23:50:19,179 - log\train.log - INFO - processed 732 tokens with 189 phrases; found: 189 phrases; correct: 187.
+
+2018-04-10 23:50:19,181 - log\train.log - INFO - accuracy:  99.73%; precision:  98.94%; recall:  98.94%; FB1:  98.94
+
+2018-04-10 23:50:19,186 - log\train.log - INFO -               ORG: precision:  98.81%; recall:  98.81%; FB1:  98.81  84
+
+2018-04-10 23:50:19,187 - log\train.log - INFO -               PER: precision:  99.05%; recall:  99.05%; FB1:  99.05  105
+
+2018-04-10 23:50:20,462 - log\train.log - INFO - iteration:33 step:64/73, NER loss: 0.009838
+2018-04-10 23:50:20,627 - log\train.log - INFO - evaluate:dev
+2018-04-10 23:50:20,723 - log\train.log - INFO - processed 760 tokens with 183 phrases; found: 184 phrases; correct: 182.
+
+2018-04-10 23:50:20,725 - log\train.log - INFO - accuracy:  99.87%; precision:  98.91%; recall:  99.45%; FB1:  99.18
+
+2018-04-10 23:50:20,730 - log\train.log - INFO -               ORG: precision:  98.86%; recall: 100.00%; FB1:  99.43  88
+
+2018-04-10 23:50:20,731 - log\train.log - INFO -               PER: precision:  98.96%; recall:  98.96%; FB1:  98.96  96
+
+2018-04-10 23:50:20,733 - log\train.log - INFO - evaluate:test
+2018-04-10 23:50:20,862 - log\train.log - INFO - processed 732 tokens with 189 phrases; found: 191 phrases; correct: 185.
+
+2018-04-10 23:50:20,866 - log\train.log - INFO - accuracy:  99.45%; precision:  96.86%; recall:  97.88%; FB1:  97.37
+
+2018-04-10 23:50:20,871 - log\train.log - INFO -               ORG: precision:  96.51%; recall:  98.81%; FB1:  97.65  86
+
+2018-04-10 23:50:20,872 - log\train.log - INFO -               PER: precision:  97.14%; recall:  97.14%; FB1:  97.14  105
+
+2018-04-10 23:50:22,142 - log\train.log - INFO - evaluate:dev
+2018-04-10 23:50:22,264 - log\train.log - INFO - processed 760 tokens with 183 phrases; found: 183 phrases; correct: 183.
+
+2018-04-10 23:50:22,269 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:50:22,271 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  87
+
+2018-04-10 23:50:22,272 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  96
+
+2018-04-10 23:50:22,275 - log\train.log - INFO - evaluate:test
+2018-04-10 23:50:22,398 - log\train.log - INFO - processed 732 tokens with 189 phrases; found: 189 phrases; correct: 187.
+
+2018-04-10 23:50:22,403 - log\train.log - INFO - accuracy:  99.86%; precision:  98.94%; recall:  98.94%; FB1:  98.94
+
+2018-04-10 23:50:22,405 - log\train.log - INFO -               ORG: precision:  98.81%; recall:  98.81%; FB1:  98.81  84
+
+2018-04-10 23:50:22,406 - log\train.log - INFO -               PER: precision:  99.05%; recall:  99.05%; FB1:  99.05  105
+
+2018-04-10 23:50:22,778 - log\train.log - INFO - iteration:35 step:18/73, NER loss: 0.004924
+2018-04-10 23:50:23,721 - log\train.log - INFO - evaluate:dev
+2018-04-10 23:50:23,837 - log\train.log - INFO - processed 760 tokens with 183 phrases; found: 183 phrases; correct: 183.
+
+2018-04-10 23:50:23,839 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:50:23,844 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  87
+
+2018-04-10 23:50:23,844 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  96
+
+2018-04-10 23:50:23,845 - log\train.log - INFO - evaluate:test
+2018-04-10 23:50:23,930 - log\train.log - INFO - processed 732 tokens with 189 phrases; found: 189 phrases; correct: 189.
+
+2018-04-10 23:50:23,932 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:50:23,936 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  84
+
+2018-04-10 23:50:23,937 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  105
+
+2018-04-10 23:50:24,779 - log\train.log - INFO - iteration:36 step:45/73, NER loss: 0.001096
+2018-04-10 23:50:25,247 - log\train.log - INFO - evaluate:dev
+2018-04-10 23:50:25,346 - log\train.log - INFO - processed 760 tokens with 183 phrases; found: 183 phrases; correct: 183.
+
+2018-04-10 23:50:25,353 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:50:25,354 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  87
+
+2018-04-10 23:50:25,355 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  96
+
+2018-04-10 23:50:25,357 - log\train.log - INFO - evaluate:test
+2018-04-10 23:50:25,497 - log\train.log - INFO - processed 732 tokens with 189 phrases; found: 189 phrases; correct: 189.
+
+2018-04-10 23:50:25,500 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:50:25,505 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  84
+
+2018-04-10 23:50:25,507 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  105
+
+2018-04-10 23:50:26,822 - log\train.log - INFO - iteration:37 step:72/73, NER loss: 0.000715
+2018-04-10 23:50:26,833 - log\train.log - INFO - evaluate:dev
+2018-04-10 23:50:26,944 - log\train.log - INFO - processed 760 tokens with 183 phrases; found: 183 phrases; correct: 183.
+
+2018-04-10 23:50:26,946 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:50:26,950 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  87
+
+2018-04-10 23:50:26,951 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  96
+
+2018-04-10 23:50:26,952 - log\train.log - INFO - evaluate:test
+2018-04-10 23:50:27,081 - log\train.log - INFO - processed 732 tokens with 189 phrases; found: 189 phrases; correct: 187.
+
+2018-04-10 23:50:27,083 - log\train.log - INFO - accuracy:  99.86%; precision:  98.94%; recall:  98.94%; FB1:  98.94
+
+2018-04-10 23:50:27,088 - log\train.log - INFO -               ORG: precision:  98.81%; recall:  98.81%; FB1:  98.81  84
+
+2018-04-10 23:50:27,091 - log\train.log - INFO -               PER: precision:  99.05%; recall:  99.05%; FB1:  99.05  105
+
+2018-04-10 23:50:28,413 - log\train.log - INFO - evaluate:dev
+2018-04-10 23:50:28,531 - log\train.log - INFO - processed 760 tokens with 183 phrases; found: 183 phrases; correct: 183.
+
+2018-04-10 23:50:28,534 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:50:28,539 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  87
+
+2018-04-10 23:50:28,540 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  96
+
+2018-04-10 23:50:28,542 - log\train.log - INFO - evaluate:test
+2018-04-10 23:50:28,679 - log\train.log - INFO - processed 732 tokens with 189 phrases; found: 189 phrases; correct: 187.
+
+2018-04-10 23:50:28,685 - log\train.log - INFO - accuracy:  99.86%; precision:  98.94%; recall:  98.94%; FB1:  98.94
+
+2018-04-10 23:50:28,687 - log\train.log - INFO -               ORG: precision:  98.81%; recall:  98.81%; FB1:  98.81  84
+
+2018-04-10 23:50:28,688 - log\train.log - INFO -               PER: precision:  99.05%; recall:  99.05%; FB1:  99.05  105
+
+2018-04-10 23:50:29,180 - log\train.log - INFO - iteration:39 step:26/73, NER loss: 0.000938
+2018-04-10 23:50:30,023 - log\train.log - INFO - evaluate:dev
+2018-04-10 23:50:30,131 - log\train.log - INFO - processed 760 tokens with 183 phrases; found: 183 phrases; correct: 183.
+
+2018-04-10 23:50:30,133 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:50:30,138 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  87
+
+2018-04-10 23:50:30,139 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  96
+
+2018-04-10 23:50:30,140 - log\train.log - INFO - evaluate:test
+2018-04-10 23:50:30,282 - log\train.log - INFO - processed 732 tokens with 189 phrases; found: 189 phrases; correct: 189.
+
+2018-04-10 23:50:30,285 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:50:30,290 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  84
+
+2018-04-10 23:50:30,291 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  105
+
+2018-04-10 23:50:31,264 - log\train.log - INFO - iteration:40 step:53/73, NER loss: 0.001220
+2018-04-10 23:50:31,691 - log\train.log - INFO - evaluate:dev
+2018-04-10 23:50:31,828 - log\train.log - INFO - processed 760 tokens with 183 phrases; found: 183 phrases; correct: 183.
+
+2018-04-10 23:50:31,834 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:50:31,835 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  87
+
+2018-04-10 23:50:31,835 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  96
+
+2018-04-10 23:50:31,837 - log\train.log - INFO - evaluate:test
+2018-04-10 23:50:31,966 - log\train.log - INFO - processed 732 tokens with 189 phrases; found: 189 phrases; correct: 189.
+
+2018-04-10 23:50:31,969 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:50:31,973 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  84
+
+2018-04-10 23:50:31,974 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  105
+
+2018-04-10 23:50:33,380 - log\train.log - INFO - evaluate:dev
+2018-04-10 23:50:33,489 - log\train.log - INFO - processed 760 tokens with 183 phrases; found: 183 phrases; correct: 183.
+
+2018-04-10 23:50:33,491 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:50:33,496 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  87
+
+2018-04-10 23:50:33,497 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  96
+
+2018-04-10 23:50:33,498 - log\train.log - INFO - evaluate:test
+2018-04-10 23:50:33,616 - log\train.log - INFO - processed 732 tokens with 189 phrases; found: 190 phrases; correct: 186.
+
+2018-04-10 23:50:33,618 - log\train.log - INFO - accuracy:  99.59%; precision:  97.89%; recall:  98.41%; FB1:  98.15
+
+2018-04-10 23:50:33,623 - log\train.log - INFO -               ORG: precision:  97.65%; recall:  98.81%; FB1:  98.22  85
+
+2018-04-10 23:50:33,624 - log\train.log - INFO -               PER: precision:  98.10%; recall:  98.10%; FB1:  98.10  105
+
+2018-04-10 23:50:33,756 - log\train.log - INFO - iteration:42 step:7/73, NER loss: 0.000744
+2018-04-10 23:50:35,104 - log\train.log - INFO - evaluate:dev
+2018-04-10 23:50:35,241 - log\train.log - INFO - processed 760 tokens with 183 phrases; found: 183 phrases; correct: 183.
+
+2018-04-10 23:50:35,243 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:50:35,248 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  87
+
+2018-04-10 23:50:35,249 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  96
+
+2018-04-10 23:50:35,250 - log\train.log - INFO - evaluate:test
+2018-04-10 23:50:35,379 - log\train.log - INFO - processed 732 tokens with 189 phrases; found: 190 phrases; correct: 188.
+
+2018-04-10 23:50:35,382 - log\train.log - INFO - accuracy:  99.86%; precision:  98.95%; recall:  99.47%; FB1:  99.21
+
+2018-04-10 23:50:35,387 - log\train.log - INFO -               ORG: precision:  98.82%; recall: 100.00%; FB1:  99.41  85
+
+2018-04-10 23:50:35,388 - log\train.log - INFO -               PER: precision:  99.05%; recall:  99.05%; FB1:  99.05  105
+
+2018-04-10 23:50:35,977 - log\train.log - INFO - iteration:43 step:34/73, NER loss: 0.000455
+2018-04-10 23:50:36,762 - log\train.log - INFO - evaluate:dev
+2018-04-10 23:50:36,875 - log\train.log - INFO - processed 760 tokens with 183 phrases; found: 183 phrases; correct: 183.
+
+2018-04-10 23:50:36,878 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:50:36,883 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  87
+
+2018-04-10 23:50:36,883 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  96
+
+2018-04-10 23:50:36,885 - log\train.log - INFO - evaluate:test
+2018-04-10 23:50:37,012 - log\train.log - INFO - processed 732 tokens with 189 phrases; found: 189 phrases; correct: 189.
+
+2018-04-10 23:50:37,014 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:50:37,019 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  84
+
+2018-04-10 23:50:37,020 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  105
+
+2018-04-10 23:50:38,081 - log\train.log - INFO - iteration:44 step:61/73, NER loss: 0.000474
+2018-04-10 23:50:38,295 - log\train.log - INFO - evaluate:dev
+2018-04-10 23:50:38,400 - log\train.log - INFO - processed 760 tokens with 183 phrases; found: 183 phrases; correct: 183.
+
+2018-04-10 23:50:38,403 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:50:38,407 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  87
+
+2018-04-10 23:50:38,408 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  96
+
+2018-04-10 23:50:38,409 - log\train.log - INFO - evaluate:test
+2018-04-10 23:50:38,518 - log\train.log - INFO - processed 732 tokens with 189 phrases; found: 190 phrases; correct: 186.
+
+2018-04-10 23:50:38,519 - log\train.log - INFO - accuracy:  99.59%; precision:  97.89%; recall:  98.41%; FB1:  98.15
+
+2018-04-10 23:50:38,524 - log\train.log - INFO -               ORG: precision:  97.65%; recall:  98.81%; FB1:  98.22  85
+
+2018-04-10 23:50:38,524 - log\train.log - INFO -               PER: precision:  98.10%; recall:  98.10%; FB1:  98.10  105
+
+2018-04-10 23:50:39,823 - log\train.log - INFO - evaluate:dev
+2018-04-10 23:50:39,945 - log\train.log - INFO - processed 760 tokens with 183 phrases; found: 183 phrases; correct: 183.
+
+2018-04-10 23:50:39,948 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:50:39,952 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  87
+
+2018-04-10 23:50:39,953 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  96
+
+2018-04-10 23:50:39,955 - log\train.log - INFO - evaluate:test
+2018-04-10 23:50:40,056 - log\train.log - INFO - processed 732 tokens with 189 phrases; found: 189 phrases; correct: 187.
+
+2018-04-10 23:50:40,059 - log\train.log - INFO - accuracy:  99.73%; precision:  98.94%; recall:  98.94%; FB1:  98.94
+
+2018-04-10 23:50:40,063 - log\train.log - INFO -               ORG: precision:  98.81%; recall:  98.81%; FB1:  98.81  84
+
+2018-04-10 23:50:40,063 - log\train.log - INFO -               PER: precision:  99.05%; recall:  99.05%; FB1:  99.05  105
+
+2018-04-10 23:50:40,332 - log\train.log - INFO - iteration:46 step:15/73, NER loss: 0.000663
+2018-04-10 23:50:41,391 - log\train.log - INFO - evaluate:dev
+2018-04-10 23:50:41,486 - log\train.log - INFO - processed 760 tokens with 183 phrases; found: 183 phrases; correct: 183.
+
+2018-04-10 23:50:41,488 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:50:41,493 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  87
+
+2018-04-10 23:50:41,494 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  96
+
+2018-04-10 23:50:41,495 - log\train.log - INFO - evaluate:test
+2018-04-10 23:50:41,622 - log\train.log - INFO - processed 732 tokens with 189 phrases; found: 189 phrases; correct: 187.
+
+2018-04-10 23:50:41,626 - log\train.log - INFO - accuracy:  99.73%; precision:  98.94%; recall:  98.94%; FB1:  98.94
+
+2018-04-10 23:50:41,630 - log\train.log - INFO -               ORG: precision:  98.81%; recall:  98.81%; FB1:  98.81  84
+
+2018-04-10 23:50:41,631 - log\train.log - INFO -               PER: precision:  99.05%; recall:  99.05%; FB1:  99.05  105
+
+2018-04-10 23:50:42,359 - log\train.log - INFO - iteration:47 step:42/73, NER loss: 0.005452
+2018-04-10 23:50:42,946 - log\train.log - INFO - evaluate:dev
+2018-04-10 23:50:43,053 - log\train.log - INFO - processed 760 tokens with 183 phrases; found: 183 phrases; correct: 183.
+
+2018-04-10 23:50:43,055 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:50:43,060 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  87
+
+2018-04-10 23:50:43,061 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  96
+
+2018-04-10 23:50:43,063 - log\train.log - INFO - evaluate:test
+2018-04-10 23:50:43,176 - log\train.log - INFO - processed 732 tokens with 189 phrases; found: 189 phrases; correct: 187.
+
+2018-04-10 23:50:43,180 - log\train.log - INFO - accuracy:  99.73%; precision:  98.94%; recall:  98.94%; FB1:  98.94
+
+2018-04-10 23:50:43,184 - log\train.log - INFO -               ORG: precision:  98.81%; recall:  98.81%; FB1:  98.81  84
+
+2018-04-10 23:50:43,188 - log\train.log - INFO -               PER: precision:  99.05%; recall:  99.05%; FB1:  99.05  105
+
+2018-04-10 23:50:44,438 - log\train.log - INFO - iteration:48 step:69/73, NER loss: 0.001108
+2018-04-10 23:50:44,506 - log\train.log - INFO - evaluate:dev
+2018-04-10 23:50:44,650 - log\train.log - INFO - processed 760 tokens with 183 phrases; found: 183 phrases; correct: 183.
+
+2018-04-10 23:50:44,651 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:50:44,655 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  87
+
+2018-04-10 23:50:44,657 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  96
+
+2018-04-10 23:50:44,658 - log\train.log - INFO - evaluate:test
+2018-04-10 23:50:44,766 - log\train.log - INFO - processed 732 tokens with 189 phrases; found: 189 phrases; correct: 187.
+
+2018-04-10 23:50:44,768 - log\train.log - INFO - accuracy:  99.86%; precision:  98.94%; recall:  98.94%; FB1:  98.94
+
+2018-04-10 23:50:44,772 - log\train.log - INFO -               ORG: precision:  98.81%; recall:  98.81%; FB1:  98.81  84
+
+2018-04-10 23:50:44,773 - log\train.log - INFO -               PER: precision:  99.05%; recall:  99.05%; FB1:  99.05  105
+
+2018-04-10 23:50:46,134 - log\train.log - INFO - evaluate:dev
+2018-04-10 23:50:46,243 - log\train.log - INFO - processed 760 tokens with 183 phrases; found: 183 phrases; correct: 183.
+
+2018-04-10 23:50:46,246 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:50:46,251 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  87
+
+2018-04-10 23:50:46,252 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  96
+
+2018-04-10 23:50:46,253 - log\train.log - INFO - evaluate:test
+2018-04-10 23:50:46,379 - log\train.log - INFO - processed 732 tokens with 189 phrases; found: 191 phrases; correct: 185.
+
+2018-04-10 23:50:46,381 - log\train.log - INFO - accuracy:  99.45%; precision:  96.86%; recall:  97.88%; FB1:  97.37
+
+2018-04-10 23:50:46,386 - log\train.log - INFO -               ORG: precision:  96.51%; recall:  98.81%; FB1:  97.65  86
+
+2018-04-10 23:50:46,387 - log\train.log - INFO -               PER: precision:  97.14%; recall:  97.14%; FB1:  97.14  105
+
+2018-04-10 23:50:46,856 - log\train.log - INFO - iteration:50 step:23/73, NER loss: 0.001213
+2018-04-10 23:50:47,821 - log\train.log - INFO - evaluate:dev
+2018-04-10 23:50:47,948 - log\train.log - INFO - processed 760 tokens with 183 phrases; found: 183 phrases; correct: 183.
+
+2018-04-10 23:50:47,950 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:50:47,955 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  87
+
+2018-04-10 23:50:47,955 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  96
+
+2018-04-10 23:50:47,956 - log\train.log - INFO - evaluate:test
+2018-04-10 23:50:48,068 - log\train.log - INFO - processed 732 tokens with 189 phrases; found: 189 phrases; correct: 189.
+
+2018-04-10 23:50:48,070 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:50:48,075 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  84
+
+2018-04-10 23:50:48,076 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  105
+
+2018-04-10 23:50:49,099 - log\train.log - INFO - iteration:51 step:50/73, NER loss: 0.000623
+2018-04-10 23:50:49,430 - log\train.log - INFO - evaluate:dev
+2018-04-10 23:50:49,507 - log\train.log - INFO - processed 760 tokens with 183 phrases; found: 183 phrases; correct: 183.
+
+2018-04-10 23:50:49,513 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:50:49,513 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  87
+
+2018-04-10 23:50:49,514 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  96
+
+2018-04-10 23:50:49,515 - log\train.log - INFO - evaluate:test
+2018-04-10 23:50:49,589 - log\train.log - INFO - processed 732 tokens with 189 phrases; found: 189 phrases; correct: 189.
+
+2018-04-10 23:50:49,591 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:50:49,596 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  84
+
+2018-04-10 23:50:49,597 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  105
+
+2018-04-10 23:50:50,534 - log\train.log - INFO - evaluate:dev
+2018-04-10 23:50:50,628 - log\train.log - INFO - processed 760 tokens with 183 phrases; found: 183 phrases; correct: 183.
+
+2018-04-10 23:50:50,630 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:50:50,630 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  87
+
+2018-04-10 23:50:50,630 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  96
+
+2018-04-10 23:50:50,630 - log\train.log - INFO - evaluate:test
+2018-04-10 23:50:50,719 - log\train.log - INFO - processed 732 tokens with 189 phrases; found: 189 phrases; correct: 189.
+
+2018-04-10 23:50:50,720 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:50:50,720 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  84
+
+2018-04-10 23:50:50,720 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  105
+
+2018-04-10 23:50:50,772 - log\train.log - INFO - iteration:53 step:4/73, NER loss: 0.000334
+2018-04-10 23:50:51,610 - log\train.log - INFO - evaluate:dev
+2018-04-10 23:50:51,688 - log\train.log - INFO - processed 760 tokens with 183 phrases; found: 183 phrases; correct: 183.
+
+2018-04-10 23:50:51,689 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:50:51,689 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  87
+
+2018-04-10 23:50:51,689 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  96
+
+2018-04-10 23:50:51,690 - log\train.log - INFO - evaluate:test
+2018-04-10 23:50:51,763 - log\train.log - INFO - processed 732 tokens with 189 phrases; found: 189 phrases; correct: 189.
+
+2018-04-10 23:50:51,764 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:50:51,764 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  84
+
+2018-04-10 23:50:51,764 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  105
+
+2018-04-10 23:50:52,133 - log\train.log - INFO - iteration:54 step:31/73, NER loss: 0.000254
+2018-04-10 23:50:52,596 - log\train.log - INFO - evaluate:dev
+2018-04-10 23:50:52,678 - log\train.log - INFO - processed 760 tokens with 183 phrases; found: 183 phrases; correct: 183.
+
+2018-04-10 23:50:52,678 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:50:52,678 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  87
+
+2018-04-10 23:50:52,678 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  96
+
+2018-04-10 23:50:52,679 - log\train.log - INFO - evaluate:test
+2018-04-10 23:50:52,743 - log\train.log - INFO - processed 732 tokens with 189 phrases; found: 189 phrases; correct: 189.
+
+2018-04-10 23:50:52,743 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:50:52,743 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  84
+
+2018-04-10 23:50:52,744 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  105
+
+2018-04-10 23:50:53,459 - log\train.log - INFO - iteration:55 step:58/73, NER loss: 0.000505
+2018-04-10 23:50:53,617 - log\train.log - INFO - evaluate:dev
+2018-04-10 23:50:53,681 - log\train.log - INFO - processed 760 tokens with 183 phrases; found: 183 phrases; correct: 183.
+
+2018-04-10 23:50:53,682 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:50:53,682 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  87
+
+2018-04-10 23:50:53,682 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  96
+
+2018-04-10 23:50:53,682 - log\train.log - INFO - evaluate:test
+2018-04-10 23:50:53,746 - log\train.log - INFO - processed 732 tokens with 189 phrases; found: 189 phrases; correct: 189.
+
+2018-04-10 23:50:53,746 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:50:53,746 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  84
+
+2018-04-10 23:50:53,746 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  105
+
+2018-04-10 23:50:54,554 - log\train.log - INFO - evaluate:dev
+2018-04-10 23:50:54,633 - log\train.log - INFO - processed 760 tokens with 183 phrases; found: 183 phrases; correct: 183.
+
+2018-04-10 23:50:54,633 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:50:54,633 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  87
+
+2018-04-10 23:50:54,634 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  96
+
+2018-04-10 23:50:54,634 - log\train.log - INFO - evaluate:test
+2018-04-10 23:50:54,699 - log\train.log - INFO - processed 732 tokens with 189 phrases; found: 189 phrases; correct: 189.
+
+2018-04-10 23:50:54,699 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:50:54,699 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  84
+
+2018-04-10 23:50:54,699 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  105
+
+2018-04-10 23:50:54,830 - log\train.log - INFO - iteration:57 step:12/73, NER loss: 0.000353
+2018-04-10 23:50:55,510 - log\train.log - INFO - evaluate:dev
+2018-04-10 23:50:55,574 - log\train.log - INFO - processed 760 tokens with 183 phrases; found: 183 phrases; correct: 183.
+
+2018-04-10 23:50:55,574 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:50:55,574 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  87
+
+2018-04-10 23:50:55,575 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  96
+
+2018-04-10 23:50:55,575 - log\train.log - INFO - evaluate:test
+2018-04-10 23:50:55,638 - log\train.log - INFO - processed 732 tokens with 189 phrases; found: 189 phrases; correct: 189.
+
+2018-04-10 23:50:55,639 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:50:55,639 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  84
+
+2018-04-10 23:50:55,639 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  105
+
+2018-04-10 23:50:56,060 - log\train.log - INFO - iteration:58 step:39/73, NER loss: 0.000254
+2018-04-10 23:50:56,460 - log\train.log - INFO - evaluate:dev
+2018-04-10 23:50:56,524 - log\train.log - INFO - processed 760 tokens with 183 phrases; found: 183 phrases; correct: 183.
+
+2018-04-10 23:50:56,524 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:50:56,525 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  87
+
+2018-04-10 23:50:56,525 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  96
+
+2018-04-10 23:50:56,525 - log\train.log - INFO - evaluate:test
+2018-04-10 23:50:56,588 - log\train.log - INFO - processed 732 tokens with 189 phrases; found: 189 phrases; correct: 189.
+
+2018-04-10 23:50:56,588 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:50:56,588 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  84
+
+2018-04-10 23:50:56,588 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  105
+
+2018-04-10 23:50:57,352 - log\train.log - INFO - iteration:59 step:66/73, NER loss: 0.000237
+2018-04-10 23:50:57,433 - log\train.log - INFO - evaluate:dev
+2018-04-10 23:50:57,497 - log\train.log - INFO - processed 760 tokens with 183 phrases; found: 183 phrases; correct: 183.
+
+2018-04-10 23:50:57,497 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:50:57,498 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  87
+
+2018-04-10 23:50:57,498 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  96
+
+2018-04-10 23:50:57,498 - log\train.log - INFO - evaluate:test
+2018-04-10 23:50:57,563 - log\train.log - INFO - processed 732 tokens with 189 phrases; found: 189 phrases; correct: 189.
+
+2018-04-10 23:50:57,563 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:50:57,564 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  84
+
+2018-04-10 23:50:57,564 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  105
+
+2018-04-10 23:50:58,504 - log\train.log - INFO - evaluate:dev
+2018-04-10 23:50:58,578 - log\train.log - INFO - processed 760 tokens with 183 phrases; found: 183 phrases; correct: 183.
+
+2018-04-10 23:50:58,579 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:50:58,579 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  87
+
+2018-04-10 23:50:58,580 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  96
+
+2018-04-10 23:50:58,580 - log\train.log - INFO - evaluate:test
+2018-04-10 23:50:58,646 - log\train.log - INFO - processed 732 tokens with 189 phrases; found: 189 phrases; correct: 189.
+
+2018-04-10 23:50:58,646 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:50:58,647 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  84
+
+2018-04-10 23:50:58,647 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  105
+
+2018-04-10 23:50:58,907 - log\train.log - INFO - iteration:61 step:20/73, NER loss: 0.000183
+2018-04-10 23:50:59,624 - log\train.log - INFO - evaluate:dev
+2018-04-10 23:50:59,792 - log\train.log - INFO - processed 760 tokens with 183 phrases; found: 183 phrases; correct: 183.
+
+2018-04-10 23:50:59,793 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:50:59,793 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  87
+
+2018-04-10 23:50:59,794 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  96
+
+2018-04-10 23:50:59,795 - log\train.log - INFO - evaluate:test
+2018-04-10 23:50:59,900 - log\train.log - INFO - processed 732 tokens with 189 phrases; found: 189 phrases; correct: 189.
+
+2018-04-10 23:50:59,900 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:50:59,900 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  84
+
+2018-04-10 23:50:59,901 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  105
+
+2018-04-10 23:51:00,849 - log\train.log - INFO - iteration:62 step:47/73, NER loss: 0.000581
+2018-04-10 23:51:01,340 - log\train.log - INFO - evaluate:dev
+2018-04-10 23:51:01,453 - log\train.log - INFO - processed 760 tokens with 183 phrases; found: 183 phrases; correct: 183.
+
+2018-04-10 23:51:01,454 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:51:01,454 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  87
+
+2018-04-10 23:51:01,454 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  96
+
+2018-04-10 23:51:01,455 - log\train.log - INFO - evaluate:test
+2018-04-10 23:51:01,542 - log\train.log - INFO - processed 732 tokens with 189 phrases; found: 189 phrases; correct: 189.
+
+2018-04-10 23:51:01,543 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:51:01,543 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  84
+
+2018-04-10 23:51:01,543 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  105
+
+2018-04-10 23:51:02,873 - log\train.log - INFO - evaluate:dev
+2018-04-10 23:51:03,016 - log\train.log - INFO - processed 760 tokens with 183 phrases; found: 183 phrases; correct: 183.
+
+2018-04-10 23:51:03,017 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:51:03,018 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  87
+
+2018-04-10 23:51:03,018 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  96
+
+2018-04-10 23:51:03,019 - log\train.log - INFO - evaluate:test
+2018-04-10 23:51:03,168 - log\train.log - INFO - processed 732 tokens with 189 phrases; found: 189 phrases; correct: 189.
+
+2018-04-10 23:51:03,169 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:51:03,169 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  84
+
+2018-04-10 23:51:03,169 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  105
+
+2018-04-10 23:51:03,178 - log\train.log - INFO - iteration:64 step:1/73, NER loss: 0.000342
+2018-04-10 23:51:04,712 - log\train.log - INFO - evaluate:dev
+2018-04-10 23:51:04,820 - log\train.log - INFO - processed 760 tokens with 183 phrases; found: 183 phrases; correct: 183.
+
+2018-04-10 23:51:04,821 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:51:04,821 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  87
+
+2018-04-10 23:51:04,822 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  96
+
+2018-04-10 23:51:04,822 - log\train.log - INFO - evaluate:test
+2018-04-10 23:51:04,942 - log\train.log - INFO - processed 732 tokens with 189 phrases; found: 189 phrases; correct: 189.
+
+2018-04-10 23:51:04,944 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:51:04,944 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  84
+
+2018-04-10 23:51:04,945 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  105
+
+2018-04-10 23:51:05,468 - log\train.log - INFO - iteration:65 step:28/73, NER loss: 0.000173
+2018-04-10 23:51:06,420 - log\train.log - INFO - evaluate:dev
+2018-04-10 23:51:06,549 - log\train.log - INFO - processed 760 tokens with 183 phrases; found: 183 phrases; correct: 183.
+
+2018-04-10 23:51:06,549 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:51:06,550 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  87
+
+2018-04-10 23:51:06,550 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  96
+
+2018-04-10 23:51:06,551 - log\train.log - INFO - evaluate:test
+2018-04-10 23:51:06,677 - log\train.log - INFO - processed 732 tokens with 189 phrases; found: 189 phrases; correct: 189.
+
+2018-04-10 23:51:06,678 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:51:06,678 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  84
+
+2018-04-10 23:51:06,678 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  105
+
+2018-04-10 23:51:07,756 - log\train.log - INFO - iteration:66 step:55/73, NER loss: 0.000458
+2018-04-10 23:51:08,057 - log\train.log - INFO - evaluate:dev
+2018-04-10 23:51:08,168 - log\train.log - INFO - processed 760 tokens with 183 phrases; found: 183 phrases; correct: 183.
+
+2018-04-10 23:51:08,168 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:51:08,168 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  87
+
+2018-04-10 23:51:08,169 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  96
+
+2018-04-10 23:51:08,169 - log\train.log - INFO - evaluate:test
+2018-04-10 23:51:08,275 - log\train.log - INFO - processed 732 tokens with 189 phrases; found: 189 phrases; correct: 189.
+
+2018-04-10 23:51:08,275 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:51:08,276 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  84
+
+2018-04-10 23:51:08,276 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  105
+
+2018-04-10 23:51:09,601 - log\train.log - INFO - evaluate:dev
+2018-04-10 23:51:09,699 - log\train.log - INFO - processed 760 tokens with 183 phrases; found: 183 phrases; correct: 183.
+
+2018-04-10 23:51:09,700 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:51:09,700 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  87
+
+2018-04-10 23:51:09,700 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  96
+
+2018-04-10 23:51:09,701 - log\train.log - INFO - evaluate:test
+2018-04-10 23:51:09,805 - log\train.log - INFO - processed 732 tokens with 189 phrases; found: 189 phrases; correct: 189.
+
+2018-04-10 23:51:09,806 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:51:09,806 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  84
+
+2018-04-10 23:51:09,806 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  105
+
+2018-04-10 23:51:09,983 - log\train.log - INFO - iteration:68 step:9/73, NER loss: 0.002751
+2018-04-10 23:51:11,128 - log\train.log - INFO - evaluate:dev
+2018-04-10 23:51:11,255 - log\train.log - INFO - processed 760 tokens with 183 phrases; found: 183 phrases; correct: 183.
+
+2018-04-10 23:51:11,256 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:51:11,256 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  87
+
+2018-04-10 23:51:11,257 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  96
+
+2018-04-10 23:51:11,257 - log\train.log - INFO - evaluate:test
+2018-04-10 23:51:11,363 - log\train.log - INFO - processed 732 tokens with 189 phrases; found: 190 phrases; correct: 183.
+
+2018-04-10 23:51:11,364 - log\train.log - INFO - accuracy:  99.32%; precision:  96.32%; recall:  96.83%; FB1:  96.57
+
+2018-04-10 23:51:11,364 - log\train.log - INFO -               ORG: precision:  95.35%; recall:  97.62%; FB1:  96.47  86
+
+2018-04-10 23:51:11,364 - log\train.log - INFO -               PER: precision:  97.12%; recall:  96.19%; FB1:  96.65  104
+
+2018-04-10 23:51:12,006 - log\train.log - INFO - iteration:69 step:36/73, NER loss: 0.007153
+2018-04-10 23:51:12,763 - log\train.log - INFO - evaluate:dev
+2018-04-10 23:51:12,893 - log\train.log - INFO - processed 760 tokens with 183 phrases; found: 183 phrases; correct: 183.
+
+2018-04-10 23:51:12,894 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:51:12,895 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  87
+
+2018-04-10 23:51:12,895 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  96
+
+2018-04-10 23:51:12,896 - log\train.log - INFO - evaluate:test
+2018-04-10 23:51:13,034 - log\train.log - INFO - processed 732 tokens with 189 phrases; found: 189 phrases; correct: 189.
+
+2018-04-10 23:51:13,034 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:51:13,035 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  84
+
+2018-04-10 23:51:13,036 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  105
+
+2018-04-10 23:51:14,373 - log\train.log - INFO - iteration:70 step:63/73, NER loss: 0.000790
+2018-04-10 23:51:14,541 - log\train.log - INFO - evaluate:dev
+2018-04-10 23:51:14,672 - log\train.log - INFO - processed 760 tokens with 183 phrases; found: 183 phrases; correct: 183.
+
+2018-04-10 23:51:14,673 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:51:14,674 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  87
+
+2018-04-10 23:51:14,674 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  96
+
+2018-04-10 23:51:14,675 - log\train.log - INFO - evaluate:test
+2018-04-10 23:51:14,803 - log\train.log - INFO - processed 732 tokens with 189 phrases; found: 189 phrases; correct: 187.
+
+2018-04-10 23:51:14,803 - log\train.log - INFO - accuracy:  99.86%; precision:  98.94%; recall:  98.94%; FB1:  98.94
+
+2018-04-10 23:51:14,804 - log\train.log - INFO -               ORG: precision:  98.81%; recall:  98.81%; FB1:  98.81  84
+
+2018-04-10 23:51:14,804 - log\train.log - INFO -               PER: precision:  99.05%; recall:  99.05%; FB1:  99.05  105
+
+2018-04-10 23:51:16,219 - log\train.log - INFO - evaluate:dev
+2018-04-10 23:51:16,332 - log\train.log - INFO - processed 760 tokens with 183 phrases; found: 183 phrases; correct: 183.
+
+2018-04-10 23:51:16,332 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:51:16,333 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  87
+
+2018-04-10 23:51:16,333 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  96
+
+2018-04-10 23:51:16,334 - log\train.log - INFO - evaluate:test
+2018-04-10 23:51:16,482 - log\train.log - INFO - processed 732 tokens with 189 phrases; found: 189 phrases; correct: 189.
+
+2018-04-10 23:51:16,482 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:51:16,483 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  84
+
+2018-04-10 23:51:16,483 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  105
+
+2018-04-10 23:51:16,831 - log\train.log - INFO - iteration:72 step:17/73, NER loss: 0.000211
+2018-04-10 23:51:17,878 - log\train.log - INFO - evaluate:dev
+2018-04-10 23:51:18,013 - log\train.log - INFO - processed 760 tokens with 183 phrases; found: 183 phrases; correct: 183.
+
+2018-04-10 23:51:18,014 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:51:18,014 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  87
+
+2018-04-10 23:51:18,014 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  96
+
+2018-04-10 23:51:18,015 - log\train.log - INFO - evaluate:test
+2018-04-10 23:51:18,153 - log\train.log - INFO - processed 732 tokens with 189 phrases; found: 189 phrases; correct: 189.
+
+2018-04-10 23:51:18,153 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:51:18,154 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  84
+
+2018-04-10 23:51:18,155 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  105
+
+2018-04-10 23:51:19,002 - log\train.log - INFO - iteration:73 step:44/73, NER loss: 0.000144
+2018-04-10 23:51:19,646 - log\train.log - INFO - evaluate:dev
+2018-04-10 23:51:19,780 - log\train.log - INFO - processed 760 tokens with 183 phrases; found: 183 phrases; correct: 183.
+
+2018-04-10 23:51:19,781 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:51:19,782 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  87
+
+2018-04-10 23:51:19,782 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  96
+
+2018-04-10 23:51:19,783 - log\train.log - INFO - evaluate:test
+2018-04-10 23:51:19,927 - log\train.log - INFO - processed 732 tokens with 189 phrases; found: 189 phrases; correct: 189.
+
+2018-04-10 23:51:19,928 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:51:19,929 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  84
+
+2018-04-10 23:51:19,929 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  105
+
+2018-04-10 23:51:21,384 - log\train.log - INFO - iteration:74 step:71/73, NER loss: 0.020075
+2018-04-10 23:51:21,439 - log\train.log - INFO - evaluate:dev
+2018-04-10 23:51:21,596 - log\train.log - INFO - processed 760 tokens with 183 phrases; found: 185 phrases; correct: 182.
+
+2018-04-10 23:51:21,596 - log\train.log - INFO - accuracy:  99.87%; precision:  98.38%; recall:  99.45%; FB1:  98.91
+
+2018-04-10 23:51:21,597 - log\train.log - INFO -               ORG: precision:  97.73%; recall:  98.85%; FB1:  98.29  88
+
+2018-04-10 23:51:21,597 - log\train.log - INFO -               PER: precision:  98.97%; recall: 100.00%; FB1:  99.48  97
+
+2018-04-10 23:51:21,599 - log\train.log - INFO - evaluate:test
+2018-04-10 23:51:21,713 - log\train.log - INFO - processed 732 tokens with 189 phrases; found: 190 phrases; correct: 188.
+
+2018-04-10 23:51:21,714 - log\train.log - INFO - accuracy:  99.86%; precision:  98.95%; recall:  99.47%; FB1:  99.21
+
+2018-04-10 23:51:21,715 - log\train.log - INFO -               ORG: precision:  98.81%; recall:  98.81%; FB1:  98.81  84
+
+2018-04-10 23:51:21,715 - log\train.log - INFO -               PER: precision:  99.06%; recall: 100.00%; FB1:  99.53  106
+
+2018-04-10 23:51:23,267 - log\train.log - INFO - evaluate:dev
+2018-04-10 23:51:23,393 - log\train.log - INFO - processed 760 tokens with 183 phrases; found: 184 phrases; correct: 182.
+
+2018-04-10 23:51:23,394 - log\train.log - INFO - accuracy:  99.87%; precision:  98.91%; recall:  99.45%; FB1:  99.18
+
+2018-04-10 23:51:23,394 - log\train.log - INFO -               ORG: precision:  98.86%; recall: 100.00%; FB1:  99.43  88
+
+2018-04-10 23:51:23,394 - log\train.log - INFO -               PER: precision:  98.96%; recall:  98.96%; FB1:  98.96  96
+
+2018-04-10 23:51:23,395 - log\train.log - INFO - evaluate:test
+2018-04-10 23:51:23,505 - log\train.log - INFO - processed 732 tokens with 189 phrases; found: 190 phrases; correct: 186.
+
+2018-04-10 23:51:23,506 - log\train.log - INFO - accuracy:  99.45%; precision:  97.89%; recall:  98.41%; FB1:  98.15
+
+2018-04-10 23:51:23,506 - log\train.log - INFO -               ORG: precision:  97.65%; recall:  98.81%; FB1:  98.22  85
+
+2018-04-10 23:51:23,507 - log\train.log - INFO -               PER: precision:  98.10%; recall:  98.10%; FB1:  98.10  105
+
+2018-04-10 23:51:24,034 - log\train.log - INFO - iteration:76 step:25/73, NER loss: 0.015604
+2018-04-10 23:51:25,027 - log\train.log - INFO - evaluate:dev
+2018-04-10 23:51:25,145 - log\train.log - INFO - processed 760 tokens with 183 phrases; found: 183 phrases; correct: 183.
+
+2018-04-10 23:51:25,146 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:51:25,146 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  87
+
+2018-04-10 23:51:25,146 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  96
+
+2018-04-10 23:51:25,147 - log\train.log - INFO - evaluate:test
+2018-04-10 23:51:25,262 - log\train.log - INFO - processed 732 tokens with 189 phrases; found: 189 phrases; correct: 187.
+
+2018-04-10 23:51:25,263 - log\train.log - INFO - accuracy:  99.86%; precision:  98.94%; recall:  98.94%; FB1:  98.94
+
+2018-04-10 23:51:25,264 - log\train.log - INFO -               ORG: precision:  98.81%; recall:  98.81%; FB1:  98.81  84
+
+2018-04-10 23:51:25,265 - log\train.log - INFO -               PER: precision:  99.05%; recall:  99.05%; FB1:  99.05  105
+
+2018-04-10 23:51:26,291 - log\train.log - INFO - iteration:77 step:52/73, NER loss: 0.005318
+2018-04-10 23:51:26,679 - log\train.log - INFO - evaluate:dev
+2018-04-10 23:51:26,791 - log\train.log - INFO - processed 760 tokens with 183 phrases; found: 183 phrases; correct: 182.
+
+2018-04-10 23:51:26,792 - log\train.log - INFO - accuracy:  99.87%; precision:  99.45%; recall:  99.45%; FB1:  99.45
+
+2018-04-10 23:51:26,792 - log\train.log - INFO -               ORG: precision:  98.85%; recall:  98.85%; FB1:  98.85  87
+
+2018-04-10 23:51:26,793 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  96
+
+2018-04-10 23:51:26,794 - log\train.log - INFO - evaluate:test
+2018-04-10 23:51:26,909 - log\train.log - INFO - processed 732 tokens with 189 phrases; found: 190 phrases; correct: 186.
+
+2018-04-10 23:51:26,910 - log\train.log - INFO - accuracy:  99.59%; precision:  97.89%; recall:  98.41%; FB1:  98.15
+
+2018-04-10 23:51:26,910 - log\train.log - INFO -               ORG: precision:  97.65%; recall:  98.81%; FB1:  98.22  85
+
+2018-04-10 23:51:26,910 - log\train.log - INFO -               PER: precision:  98.10%; recall:  98.10%; FB1:  98.10  105
+
+2018-04-10 23:51:28,267 - log\train.log - INFO - evaluate:dev
+2018-04-10 23:51:28,365 - log\train.log - INFO - processed 760 tokens with 183 phrases; found: 183 phrases; correct: 183.
+
+2018-04-10 23:51:28,366 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:51:28,366 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  87
+
+2018-04-10 23:51:28,367 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  96
+
+2018-04-10 23:51:28,368 - log\train.log - INFO - evaluate:test
+2018-04-10 23:51:28,461 - log\train.log - INFO - processed 732 tokens with 189 phrases; found: 190 phrases; correct: 184.
+
+2018-04-10 23:51:28,462 - log\train.log - INFO - accuracy:  99.59%; precision:  96.84%; recall:  97.35%; FB1:  97.10
+
+2018-04-10 23:51:28,462 - log\train.log - INFO -               ORG: precision:  96.47%; recall:  97.62%; FB1:  97.04  85
+
+2018-04-10 23:51:28,462 - log\train.log - INFO -               PER: precision:  97.14%; recall:  97.14%; FB1:  97.14  105
+
+2018-04-10 23:51:28,570 - log\train.log - INFO - iteration:79 step:6/73, NER loss: 0.001638
+2018-04-10 23:51:29,807 - log\train.log - INFO - evaluate:dev
+2018-04-10 23:51:29,917 - log\train.log - INFO - processed 760 tokens with 183 phrases; found: 183 phrases; correct: 183.
+
+2018-04-10 23:51:29,918 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:51:29,918 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  87
+
+2018-04-10 23:51:29,919 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  96
+
+2018-04-10 23:51:29,920 - log\train.log - INFO - evaluate:test
+2018-04-10 23:51:30,044 - log\train.log - INFO - processed 732 tokens with 189 phrases; found: 190 phrases; correct: 184.
+
+2018-04-10 23:51:30,045 - log\train.log - INFO - accuracy:  99.59%; precision:  96.84%; recall:  97.35%; FB1:  97.10
+
+2018-04-10 23:51:30,045 - log\train.log - INFO -               ORG: precision:  96.47%; recall:  97.62%; FB1:  97.04  85
+
+2018-04-10 23:51:30,047 - log\train.log - INFO -               PER: precision:  97.14%; recall:  97.14%; FB1:  97.14  105
+
+2018-04-10 23:51:30,635 - log\train.log - INFO - iteration:80 step:33/73, NER loss: 0.000300
+2018-04-10 23:51:31,409 - log\train.log - INFO - evaluate:dev
+2018-04-10 23:51:31,530 - log\train.log - INFO - processed 760 tokens with 183 phrases; found: 183 phrases; correct: 183.
+
+2018-04-10 23:51:31,531 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:51:31,531 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  87
+
+2018-04-10 23:51:31,531 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  96
+
+2018-04-10 23:51:31,532 - log\train.log - INFO - evaluate:test
+2018-04-10 23:51:31,664 - log\train.log - INFO - processed 732 tokens with 189 phrases; found: 190 phrases; correct: 184.
+
+2018-04-10 23:51:31,665 - log\train.log - INFO - accuracy:  99.45%; precision:  96.84%; recall:  97.35%; FB1:  97.10
+
+2018-04-10 23:51:31,666 - log\train.log - INFO -               ORG: precision:  96.47%; recall:  97.62%; FB1:  97.04  85
+
+2018-04-10 23:51:31,667 - log\train.log - INFO -               PER: precision:  97.14%; recall:  97.14%; FB1:  97.14  105
+
+2018-04-10 23:51:32,822 - log\train.log - INFO - iteration:81 step:60/73, NER loss: 0.000320
+2018-04-10 23:51:33,083 - log\train.log - INFO - evaluate:dev
+2018-04-10 23:51:33,216 - log\train.log - INFO - processed 760 tokens with 183 phrases; found: 183 phrases; correct: 183.
+
+2018-04-10 23:51:33,216 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:51:33,217 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  87
+
+2018-04-10 23:51:33,218 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  96
+
+2018-04-10 23:51:33,218 - log\train.log - INFO - evaluate:test
+2018-04-10 23:51:33,345 - log\train.log - INFO - processed 732 tokens with 189 phrases; found: 190 phrases; correct: 184.
+
+2018-04-10 23:51:33,346 - log\train.log - INFO - accuracy:  99.45%; precision:  96.84%; recall:  97.35%; FB1:  97.10
+
+2018-04-10 23:51:33,346 - log\train.log - INFO -               ORG: precision:  96.47%; recall:  97.62%; FB1:  97.04  85
+
+2018-04-10 23:51:33,347 - log\train.log - INFO -               PER: precision:  97.14%; recall:  97.14%; FB1:  97.14  105
+
+2018-04-10 23:51:34,766 - log\train.log - INFO - evaluate:dev
+2018-04-10 23:51:34,896 - log\train.log - INFO - processed 760 tokens with 183 phrases; found: 183 phrases; correct: 183.
+
+2018-04-10 23:51:34,898 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:51:34,898 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  87
+
+2018-04-10 23:51:34,899 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  96
+
+2018-04-10 23:51:34,899 - log\train.log - INFO - evaluate:test
+2018-04-10 23:51:35,029 - log\train.log - INFO - processed 732 tokens with 189 phrases; found: 190 phrases; correct: 184.
+
+2018-04-10 23:51:35,030 - log\train.log - INFO - accuracy:  99.45%; precision:  96.84%; recall:  97.35%; FB1:  97.10
+
+2018-04-10 23:51:35,031 - log\train.log - INFO -               ORG: precision:  96.47%; recall:  97.62%; FB1:  97.04  85
+
+2018-04-10 23:51:35,032 - log\train.log - INFO -               PER: precision:  97.14%; recall:  97.14%; FB1:  97.14  105
+
+2018-04-10 23:51:35,329 - log\train.log - INFO - iteration:83 step:14/73, NER loss: 0.000184
+2018-04-10 23:51:36,599 - log\train.log - INFO - evaluate:dev
+2018-04-10 23:51:36,728 - log\train.log - INFO - processed 760 tokens with 183 phrases; found: 183 phrases; correct: 183.
+
+2018-04-10 23:51:36,728 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:51:36,728 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  87
+
+2018-04-10 23:51:36,729 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  96
+
+2018-04-10 23:51:36,729 - log\train.log - INFO - evaluate:test
+2018-04-10 23:51:36,864 - log\train.log - INFO - processed 732 tokens with 189 phrases; found: 190 phrases; correct: 186.
+
+2018-04-10 23:51:36,865 - log\train.log - INFO - accuracy:  99.59%; precision:  97.89%; recall:  98.41%; FB1:  98.15
+
+2018-04-10 23:51:36,865 - log\train.log - INFO -               ORG: precision:  97.65%; recall:  98.81%; FB1:  98.22  85
+
+2018-04-10 23:51:36,866 - log\train.log - INFO -               PER: precision:  98.10%; recall:  98.10%; FB1:  98.10  105
+
+2018-04-10 23:51:37,763 - log\train.log - INFO - iteration:84 step:41/73, NER loss: 0.000120
+2018-04-10 23:51:38,368 - log\train.log - INFO - evaluate:dev
+2018-04-10 23:51:38,514 - log\train.log - INFO - processed 760 tokens with 183 phrases; found: 183 phrases; correct: 183.
+
+2018-04-10 23:51:38,515 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:51:38,516 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  87
+
+2018-04-10 23:51:38,517 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  96
+
+2018-04-10 23:51:38,518 - log\train.log - INFO - evaluate:test
+2018-04-10 23:51:38,672 - log\train.log - INFO - processed 732 tokens with 189 phrases; found: 190 phrases; correct: 186.
+
+2018-04-10 23:51:38,673 - log\train.log - INFO - accuracy:  99.59%; precision:  97.89%; recall:  98.41%; FB1:  98.15
+
+2018-04-10 23:51:38,673 - log\train.log - INFO -               ORG: precision:  97.65%; recall:  98.81%; FB1:  98.22  85
+
+2018-04-10 23:51:38,673 - log\train.log - INFO -               PER: precision:  98.10%; recall:  98.10%; FB1:  98.10  105
+
+2018-04-10 23:51:40,095 - log\train.log - INFO - iteration:85 step:68/73, NER loss: 0.000818
+2018-04-10 23:51:40,215 - log\train.log - INFO - evaluate:dev
+2018-04-10 23:51:40,347 - log\train.log - INFO - processed 760 tokens with 183 phrases; found: 183 phrases; correct: 183.
+
+2018-04-10 23:51:40,348 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:51:40,349 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  87
+
+2018-04-10 23:51:40,349 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  96
+
+2018-04-10 23:51:40,350 - log\train.log - INFO - evaluate:test
+2018-04-10 23:51:40,474 - log\train.log - INFO - processed 732 tokens with 189 phrases; found: 190 phrases; correct: 186.
+
+2018-04-10 23:51:40,474 - log\train.log - INFO - accuracy:  99.73%; precision:  97.89%; recall:  98.41%; FB1:  98.15
+
+2018-04-10 23:51:40,475 - log\train.log - INFO -               ORG: precision:  97.65%; recall:  98.81%; FB1:  98.22  85
+
+2018-04-10 23:51:40,475 - log\train.log - INFO -               PER: precision:  98.10%; recall:  98.10%; FB1:  98.10  105
+
+2018-04-10 23:51:41,830 - log\train.log - INFO - evaluate:dev
+2018-04-10 23:51:41,951 - log\train.log - INFO - processed 760 tokens with 183 phrases; found: 183 phrases; correct: 183.
+
+2018-04-10 23:51:41,952 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:51:41,952 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  87
+
+2018-04-10 23:51:41,953 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  96
+
+2018-04-10 23:51:41,954 - log\train.log - INFO - evaluate:test
+2018-04-10 23:51:42,081 - log\train.log - INFO - processed 732 tokens with 189 phrases; found: 190 phrases; correct: 186.
+
+2018-04-10 23:51:42,081 - log\train.log - INFO - accuracy:  99.73%; precision:  97.89%; recall:  98.41%; FB1:  98.15
+
+2018-04-10 23:51:42,082 - log\train.log - INFO -               ORG: precision:  97.65%; recall:  98.81%; FB1:  98.22  85
+
+2018-04-10 23:51:42,082 - log\train.log - INFO -               PER: precision:  98.10%; recall:  98.10%; FB1:  98.10  105
+
+2018-04-10 23:51:42,502 - log\train.log - INFO - iteration:87 step:22/73, NER loss: 0.000190
+2018-04-10 23:51:43,481 - log\train.log - INFO - evaluate:dev
+2018-04-10 23:51:43,592 - log\train.log - INFO - processed 760 tokens with 183 phrases; found: 183 phrases; correct: 183.
+
+2018-04-10 23:51:43,593 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:51:43,593 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  87
+
+2018-04-10 23:51:43,594 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  96
+
+2018-04-10 23:51:43,595 - log\train.log - INFO - evaluate:test
+2018-04-10 23:51:43,729 - log\train.log - INFO - processed 732 tokens with 189 phrases; found: 190 phrases; correct: 186.
+
+2018-04-10 23:51:43,729 - log\train.log - INFO - accuracy:  99.73%; precision:  97.89%; recall:  98.41%; FB1:  98.15
+
+2018-04-10 23:51:43,730 - log\train.log - INFO -               ORG: precision:  97.65%; recall:  98.81%; FB1:  98.22  85
+
+2018-04-10 23:51:43,731 - log\train.log - INFO -               PER: precision:  98.10%; recall:  98.10%; FB1:  98.10  105
+
+2018-04-10 23:51:44,702 - log\train.log - INFO - iteration:88 step:49/73, NER loss: 0.000260
+2018-04-10 23:51:45,162 - log\train.log - INFO - evaluate:dev
+2018-04-10 23:51:45,292 - log\train.log - INFO - processed 760 tokens with 183 phrases; found: 183 phrases; correct: 183.
+
+2018-04-10 23:51:45,292 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:51:45,293 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  87
+
+2018-04-10 23:51:45,293 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  96
+
+2018-04-10 23:51:45,294 - log\train.log - INFO - evaluate:test
+2018-04-10 23:51:45,419 - log\train.log - INFO - processed 732 tokens with 189 phrases; found: 190 phrases; correct: 188.
+
+2018-04-10 23:51:45,421 - log\train.log - INFO - accuracy:  99.73%; precision:  98.95%; recall:  99.47%; FB1:  99.21
+
+2018-04-10 23:51:45,421 - log\train.log - INFO -               ORG: precision:  98.82%; recall: 100.00%; FB1:  99.41  85
+
+2018-04-10 23:51:45,421 - log\train.log - INFO -               PER: precision:  99.05%; recall:  99.05%; FB1:  99.05  105
+
+2018-04-10 23:51:46,882 - log\train.log - INFO - evaluate:dev
+2018-04-10 23:51:47,015 - log\train.log - INFO - processed 760 tokens with 183 phrases; found: 183 phrases; correct: 183.
+
+2018-04-10 23:51:47,016 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:51:47,016 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  87
+
+2018-04-10 23:51:47,017 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  96
+
+2018-04-10 23:51:47,018 - log\train.log - INFO - evaluate:test
+2018-04-10 23:51:47,142 - log\train.log - INFO - processed 732 tokens with 189 phrases; found: 190 phrases; correct: 188.
+
+2018-04-10 23:51:47,143 - log\train.log - INFO - accuracy:  99.73%; precision:  98.95%; recall:  99.47%; FB1:  99.21
+
+2018-04-10 23:51:47,143 - log\train.log - INFO -               ORG: precision:  98.82%; recall: 100.00%; FB1:  99.41  85
+
+2018-04-10 23:51:47,143 - log\train.log - INFO -               PER: precision:  99.05%; recall:  99.05%; FB1:  99.05  105
+
+2018-04-10 23:51:47,212 - log\train.log - INFO - iteration:90 step:3/73, NER loss: 0.000105
+2018-04-10 23:51:48,534 - log\train.log - INFO - evaluate:dev
+2018-04-10 23:51:48,663 - log\train.log - INFO - processed 760 tokens with 183 phrases; found: 183 phrases; correct: 183.
+
+2018-04-10 23:51:48,664 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:51:48,665 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  87
+
+2018-04-10 23:51:48,666 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  96
+
+2018-04-10 23:51:48,667 - log\train.log - INFO - evaluate:test
+2018-04-10 23:51:48,803 - log\train.log - INFO - processed 732 tokens with 189 phrases; found: 190 phrases; correct: 188.
+
+2018-04-10 23:51:48,804 - log\train.log - INFO - accuracy:  99.73%; precision:  98.95%; recall:  99.47%; FB1:  99.21
+
+2018-04-10 23:51:48,805 - log\train.log - INFO -               ORG: precision:  98.82%; recall: 100.00%; FB1:  99.41  85
+
+2018-04-10 23:51:48,806 - log\train.log - INFO -               PER: precision:  99.05%; recall:  99.05%; FB1:  99.05  105
+
+2018-04-10 23:51:49,352 - log\train.log - INFO - iteration:91 step:30/73, NER loss: 0.000070
+2018-04-10 23:51:50,200 - log\train.log - INFO - evaluate:dev
+2018-04-10 23:51:50,320 - log\train.log - INFO - processed 760 tokens with 183 phrases; found: 183 phrases; correct: 183.
+
+2018-04-10 23:51:50,321 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:51:50,321 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  87
+
+2018-04-10 23:51:50,321 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  96
+
+2018-04-10 23:51:50,323 - log\train.log - INFO - evaluate:test
+2018-04-10 23:51:50,459 - log\train.log - INFO - processed 732 tokens with 189 phrases; found: 190 phrases; correct: 188.
+
+2018-04-10 23:51:50,460 - log\train.log - INFO - accuracy:  99.73%; precision:  98.95%; recall:  99.47%; FB1:  99.21
+
+2018-04-10 23:51:50,461 - log\train.log - INFO -               ORG: precision:  98.82%; recall: 100.00%; FB1:  99.41  85
+
+2018-04-10 23:51:50,461 - log\train.log - INFO -               PER: precision:  99.05%; recall:  99.05%; FB1:  99.05  105
+
+2018-04-10 23:51:51,640 - log\train.log - INFO - iteration:92 step:57/73, NER loss: 0.000073
+2018-04-10 23:51:51,974 - log\train.log - INFO - evaluate:dev
+2018-04-10 23:51:52,101 - log\train.log - INFO - processed 760 tokens with 183 phrases; found: 183 phrases; correct: 183.
+
+2018-04-10 23:51:52,102 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:51:52,102 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  87
+
+2018-04-10 23:51:52,102 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  96
+
+2018-04-10 23:51:52,103 - log\train.log - INFO - evaluate:test
+2018-04-10 23:51:52,226 - log\train.log - INFO - processed 732 tokens with 189 phrases; found: 190 phrases; correct: 188.
+
+2018-04-10 23:51:52,227 - log\train.log - INFO - accuracy:  99.73%; precision:  98.95%; recall:  99.47%; FB1:  99.21
+
+2018-04-10 23:51:52,227 - log\train.log - INFO -               ORG: precision:  98.82%; recall: 100.00%; FB1:  99.41  85
+
+2018-04-10 23:51:52,227 - log\train.log - INFO -               PER: precision:  99.05%; recall:  99.05%; FB1:  99.05  105
+
+2018-04-10 23:51:53,758 - log\train.log - INFO - evaluate:dev
+2018-04-10 23:51:53,902 - log\train.log - INFO - processed 760 tokens with 183 phrases; found: 183 phrases; correct: 183.
+
+2018-04-10 23:51:53,903 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:51:53,903 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  87
+
+2018-04-10 23:51:53,904 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  96
+
+2018-04-10 23:51:53,905 - log\train.log - INFO - evaluate:test
+2018-04-10 23:51:54,030 - log\train.log - INFO - processed 732 tokens with 189 phrases; found: 189 phrases; correct: 189.
+
+2018-04-10 23:51:54,031 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:51:54,031 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  84
+
+2018-04-10 23:51:54,032 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  105
+
+2018-04-10 23:51:54,291 - log\train.log - INFO - iteration:94 step:11/73, NER loss: 0.000078
+2018-04-10 23:51:55,599 - log\train.log - INFO - evaluate:dev
+2018-04-10 23:51:55,728 - log\train.log - INFO - processed 760 tokens with 183 phrases; found: 183 phrases; correct: 183.
+
+2018-04-10 23:51:55,728 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:51:55,729 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  87
+
+2018-04-10 23:51:55,729 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  96
+
+2018-04-10 23:51:55,730 - log\train.log - INFO - evaluate:test
+2018-04-10 23:51:55,848 - log\train.log - INFO - processed 732 tokens with 189 phrases; found: 190 phrases; correct: 188.
+
+2018-04-10 23:51:55,849 - log\train.log - INFO - accuracy:  99.86%; precision:  98.95%; recall:  99.47%; FB1:  99.21
+
+2018-04-10 23:51:55,849 - log\train.log - INFO -               ORG: precision:  98.82%; recall: 100.00%; FB1:  99.41  85
+
+2018-04-10 23:51:55,850 - log\train.log - INFO -               PER: precision:  99.05%; recall:  99.05%; FB1:  99.05  105
+
+2018-04-10 23:51:56,638 - log\train.log - INFO - iteration:95 step:38/73, NER loss: 0.000062
+2018-04-10 23:51:57,363 - log\train.log - INFO - evaluate:dev
+2018-04-10 23:51:57,484 - log\train.log - INFO - processed 760 tokens with 183 phrases; found: 183 phrases; correct: 183.
+
+2018-04-10 23:51:57,486 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:51:57,486 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  87
+
+2018-04-10 23:51:57,486 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  96
+
+2018-04-10 23:51:57,487 - log\train.log - INFO - evaluate:test
+2018-04-10 23:51:57,627 - log\train.log - INFO - processed 732 tokens with 189 phrases; found: 190 phrases; correct: 188.
+
+2018-04-10 23:51:57,628 - log\train.log - INFO - accuracy:  99.86%; precision:  98.95%; recall:  99.47%; FB1:  99.21
+
+2018-04-10 23:51:57,629 - log\train.log - INFO -               ORG: precision:  98.82%; recall: 100.00%; FB1:  99.41  85
+
+2018-04-10 23:51:57,629 - log\train.log - INFO -               PER: precision:  99.05%; recall:  99.05%; FB1:  99.05  105
+
+2018-04-10 23:51:58,807 - log\train.log - INFO - iteration:96 step:65/73, NER loss: 0.000042
+2018-04-10 23:51:58,987 - log\train.log - INFO - evaluate:dev
+2018-04-10 23:51:59,114 - log\train.log - INFO - processed 760 tokens with 183 phrases; found: 183 phrases; correct: 183.
+
+2018-04-10 23:51:59,115 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:51:59,115 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  87
+
+2018-04-10 23:51:59,115 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  96
+
+2018-04-10 23:51:59,116 - log\train.log - INFO - evaluate:test
+2018-04-10 23:51:59,243 - log\train.log - INFO - processed 732 tokens with 189 phrases; found: 190 phrases; correct: 188.
+
+2018-04-10 23:51:59,244 - log\train.log - INFO - accuracy:  99.86%; precision:  98.95%; recall:  99.47%; FB1:  99.21
+
+2018-04-10 23:51:59,244 - log\train.log - INFO -               ORG: precision:  98.82%; recall: 100.00%; FB1:  99.41  85
+
+2018-04-10 23:51:59,245 - log\train.log - INFO -               PER: precision:  99.05%; recall:  99.05%; FB1:  99.05  105
+
+2018-04-10 23:52:00,554 - log\train.log - INFO - evaluate:dev
+2018-04-10 23:52:00,676 - log\train.log - INFO - processed 760 tokens with 183 phrases; found: 183 phrases; correct: 183.
+
+2018-04-10 23:52:00,677 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:52:00,677 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  87
+
+2018-04-10 23:52:00,678 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  96
+
+2018-04-10 23:52:00,679 - log\train.log - INFO - evaluate:test
+2018-04-10 23:52:00,812 - log\train.log - INFO - processed 732 tokens with 189 phrases; found: 189 phrases; correct: 189.
+
+2018-04-10 23:52:00,813 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:52:00,814 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  84
+
+2018-04-10 23:52:00,815 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  105
+
+2018-04-10 23:52:01,157 - log\train.log - INFO - iteration:98 step:19/73, NER loss: 0.000047
+2018-04-10 23:52:02,228 - log\train.log - INFO - evaluate:dev
+2018-04-10 23:52:02,352 - log\train.log - INFO - processed 760 tokens with 183 phrases; found: 183 phrases; correct: 183.
+
+2018-04-10 23:52:02,353 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:52:02,353 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  87
+
+2018-04-10 23:52:02,354 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  96
+
+2018-04-10 23:52:02,355 - log\train.log - INFO - evaluate:test
+2018-04-10 23:52:02,487 - log\train.log - INFO - processed 732 tokens with 189 phrases; found: 189 phrases; correct: 189.
+
+2018-04-10 23:52:02,488 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:52:02,488 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  84
+
+2018-04-10 23:52:02,488 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  105
+
+2018-04-10 23:52:03,340 - log\train.log - INFO - iteration:99 step:46/73, NER loss: 0.000381
+2018-04-10 23:52:03,830 - log\train.log - INFO - evaluate:dev
+2018-04-10 23:52:03,931 - log\train.log - INFO - processed 760 tokens with 183 phrases; found: 183 phrases; correct: 183.
+
+2018-04-10 23:52:03,932 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:52:03,933 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  87
+
+2018-04-10 23:52:03,934 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  96
+
+2018-04-10 23:52:03,935 - log\train.log - INFO - evaluate:test
+2018-04-10 23:52:04,067 - log\train.log - INFO - processed 732 tokens with 189 phrases; found: 190 phrases; correct: 186.
+
+2018-04-10 23:52:04,067 - log\train.log - INFO - accuracy:  99.73%; precision:  97.89%; recall:  98.41%; FB1:  98.15
+
+2018-04-10 23:52:04,068 - log\train.log - INFO -               ORG: precision:  97.65%; recall:  98.81%; FB1:  98.22  85
+
+2018-04-10 23:52:04,068 - log\train.log - INFO -               PER: precision:  98.10%; recall:  98.10%; FB1:  98.10  105
+
+2018-04-10 23:52:05,445 - log\train.log - INFO - iteration:101 step:0/73, NER loss: 0.000120
+2018-04-10 23:52:05,446 - log\train.log - INFO - evaluate:dev
+2018-04-10 23:52:05,579 - log\train.log - INFO - processed 760 tokens with 183 phrases; found: 183 phrases; correct: 183.
+
+2018-04-10 23:52:05,580 - log\train.log - INFO - accuracy: 100.00%; precision: 100.00%; recall: 100.00%; FB1: 100.00
+
+2018-04-10 23:52:05,581 - log\train.log - INFO -               ORG: precision: 100.00%; recall: 100.00%; FB1: 100.00  87
+
+2018-04-10 23:52:05,581 - log\train.log - INFO -               PER: precision: 100.00%; recall: 100.00%; FB1: 100.00  96
+
+2018-04-10 23:52:05,582 - log\train.log - INFO - evaluate:test
+2018-04-10 23:52:05,698 - log\train.log - INFO - processed 732 tokens with 189 phrases; found: 190 phrases; correct: 186.
+
+2018-04-10 23:52:05,699 - log\train.log - INFO - accuracy:  99.73%; precision:  97.89%; recall:  98.41%; FB1:  98.15
+
+2018-04-10 23:52:05,700 - log\train.log - INFO -               ORG: precision:  97.65%; recall:  98.81%; FB1:  98.22  85
+
+2018-04-10 23:52:05,700 - log\train.log - INFO -               PER: precision:  98.10%; recall:  98.10%; FB1:  98.10  105
+
