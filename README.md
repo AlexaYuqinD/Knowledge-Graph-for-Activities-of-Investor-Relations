@@ -43,25 +43,29 @@ Note: for entity, attribute and relation extraction.
 #### (ii) BiLSTM-CRF
 Note: only for named entity extraction (people and companies).
 
-Add a CRF layder to a Bi-LSTM architecture.
+Add a CRF layer to a Bi-LSTM architecture.
 
-Model structure
+<p align="center">Model structure</p>
 <p align="center">
 <img src="https://github.com/AlexaYuqinD/Knowledge-Graph-for-Activities-of-Investor-Relations/blob/master/images/BiLSTM+CRF2.PNG" 
- width="400" height="110" />
+ width="500" height="400" />
 </p>
+
+<br>
 
 Performance
 
 <p align="center">Confusion Matrix</p>
 <p align="center">
 <img src="https://github.com/AlexaYuqinD/Knowledge-Graph-for-Activities-of-Investor-Relations/blob/master/images/bi.PNG" 
- width="400" height="110" />
+ width="410" height="130" />
 </p>
+
+<br>
 
 <p align="center">Customized Input Test on the Trained Model</p>
 <p align="center">
-<img src="https://github.com/AlexaYuqinD/Knowledge-Graph-for-Activities-of-Investor-Relations/blob/master/images/bi2.PNG" 
+<img src="https://github.com/AlexaYuqinD/Knowledge-Graph-for-Activities-of-Investor-Relations/blob/master/images/bi1.PNG" 
  width="400" height="110" />
 </p>
 
@@ -90,7 +94,7 @@ Performance
 
 <p align="center">Customized Input Test on the Trained Model</p>
 <p align="center">
-<img src="https://github.com/AlexaYuqinD/Knowledge-Graph-for-Activities-of-Investor-Relations/blob/master/images/id2.PNG" 
+<img src="https://github.com/AlexaYuqinD/Knowledge-Graph-for-Activities-of-Investor-Relations/blob/master/images/id1.PNG" 
  width="400" height="110" />
 </p>
 ## 3. Knowledge Merge
