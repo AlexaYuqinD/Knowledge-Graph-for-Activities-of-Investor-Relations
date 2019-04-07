@@ -112,13 +112,13 @@ Use rule-based methods to implement entity disambiguation and coreference resolu
 <p align="center">Entity Relationship Diagram</p>
 <p align="center">
 <img src="https://github.com/AlexaYuqinD/Knowledge-Graph-for-Activities-of-Investor-Relations/blob/master/images/er.png" 
- width="510" height="380" />
+ width="520" height="380" />
 </p>
 
 Based on entity relationship, the data is stored in SPO triples.
 <p align="center">
 <img src="https://github.com/AlexaYuqinD/Knowledge-Graph-for-Activities-of-Investor-Relations/blob/master/images/spo.png" 
- width="450" height="180" />
+ width="450" height="160" />
 </p>
 
 ## 5. Visualization (Knowledge Graph)
@@ -126,7 +126,7 @@ Use Gephi to visualize the knowledge graph.
 <p align="center">The Whole Knowledge Graph</p>
 <p align="center">
 <img src="https://github.com/AlexaYuqinD/Knowledge-Graph-for-Activities-of-Investor-Relations/blob/master/images/small.png" 
- width="270" height="200" />
+ width="270" height="220" />
 </p>
 
 <p align="center">Zoomed in Knowledge Graph</p>
