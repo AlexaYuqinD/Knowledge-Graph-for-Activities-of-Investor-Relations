@@ -113,7 +113,7 @@ Use rule-based methods to implement entity disambiguation and coreference resolu
 <p align="center">Entity Relationship Diagram</p>
 <p align="center">
 <img src="https://github.com/AlexaYuqinD/Knowledge-Graph-for-Activities-of-Investor-Relations/blob/master/images/er.png" 
- width="530" height="360" />
+ width="530" height="350" />
 </p>
 
 <br>
@@ -129,7 +129,7 @@ Use Gephi to visualize the knowledge graph.
 <p align="center">The Whole Knowledge Graph</p>
 <p align="center">
 <img src="https://github.com/AlexaYuqinD/Knowledge-Graph-for-Activities-of-Investor-Relations/blob/master/images/small.png" 
- width="270" height="240" />
+ width="290" height="255" />
 </p>
 
 <br>
