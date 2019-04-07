@@ -87,6 +87,7 @@ Dilated convolutions can expand the receptive field exponentially.
 Simply increasing the depth of stacked dilated convolutions would cause overfitting problems. Therefore, Strubell E. et al.(2017) proposed IDCNN (Iterated Dilated Convolutional Neural Networks), which iteratively apply the same small stacks of dilated convolutions. Repeatedly employing
 the same parameters in a recurrent fashion helps the model memorize longer and generalize better.
 
+<br>
 
 #### Performance
 
@@ -104,7 +105,7 @@ the same parameters in a recurrent fashion helps the model memorize longer and g
  width="550" height="200" />
 </p>
 
-## 3. Knowledge Merge
+## 3. Knowledge Infusion
 
 Use rule-based methods to implement entity disambiguation and coreference resolution.
 
@@ -125,7 +126,7 @@ Based on entity relationship, the data is stored in SPO triples.
 </p>
 
 ## 5. Visualization (Knowledge Graph)
-Use Gephi to visualize the knowledge graph.
+Finally, use Gephi to visualize the knowledge graph.
 <p align="center">The Complete Knowledge Graph</p>
 <p align="center">
 <img src="https://github.com/AlexaYuqinD/Knowledge-Graph-for-Activities-of-Investor-Relations/blob/master/images/small.png" 
