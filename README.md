@@ -48,17 +48,17 @@ Add a CRF layer to a Bi-LSTM architecture.
 <p align="center">BiLSTM-CRF Model Structure</p>
 <p align="center">
 <img src="https://github.com/AlexaYuqinD/Knowledge-Graph-for-Activities-of-Investor-Relations/blob/master/images/BiLSTM+CRF2.PNG" 
- width="500" height="390" />
+ width="500" height="380" />
 </p>
 
 <br>
 
-##### Performance
+#### Performance
 
 <p align="center">Confusion Matrix</p>
 <p align="center">
 <img src="https://github.com/AlexaYuqinD/Knowledge-Graph-for-Activities-of-Investor-Relations/blob/master/images/bi.PNG" 
- width="430" height="130" />
+ width="450" height="140" />
 </p>
 
 <br>
@@ -66,7 +66,7 @@ Add a CRF layer to a Bi-LSTM architecture.
 <p align="center">Customized Input Test on the Trained Model</p>
 <p align="center">
 <img src="https://github.com/AlexaYuqinD/Knowledge-Graph-for-Activities-of-Investor-Relations/blob/master/images/bi1.PNG" 
- width="500" height="170" />
+ width="550" height="190" />
 </p>
 
 #### (iii) IDCNN-CRF
@@ -84,7 +84,7 @@ Simply increasing the depth of stacked dilated convolutions would cause overfitt
 the same parameters in a recurrent fashion helps the model memorize longer and generalize better.
 
 
-Performance
+#### Performance
 
 <p align="center">Confusion Matrix</p>
 <p align="center">
