@@ -17,6 +17,7 @@ Crawl Investor Relation forms of companies of Shenzhen stock market from <a href
  width="400" height="110" />
 </p>
 
+<br>
 
 <p align="center">Host Names and Positions</p>
 
@@ -24,6 +25,8 @@ Crawl Investor Relation forms of companies of Shenzhen stock market from <a href
 <img src="https://github.com/AlexaYuqinD/Knowledge-Graph-for-Activities-of-Investor-Relations/blob/master/images/host.PNG" 
  width="400" height="60" />
 </p>
+
+<br>
 
 <p align="center">Guest Names and Corresponding Companies</p>
 
@@ -109,13 +112,13 @@ Use rule-based methods to implement entity disambiguation and coreference resolu
 <p align="center">Entity Relationship Diagram</p>
 <p align="center">
 <img src="https://github.com/AlexaYuqinD/Knowledge-Graph-for-Activities-of-Investor-Relations/blob/master/images/er.png" 
- width="500" height="410" />
+ width="510" height="380" />
 </p>
 
 Based on entity relationship, the data is stored in SPO triples.
 <p align="center">
 <img src="https://github.com/AlexaYuqinD/Knowledge-Graph-for-Activities-of-Investor-Relations/blob/master/images/spo.png" 
- width="450" height="200" />
+ width="450" height="180" />
 </p>
 
 ## 5. Visualization (Knowledge Graph)
@@ -123,13 +126,13 @@ Use Gephi to visualize the knowledge graph.
 <p align="center">The Whole Knowledge Graph</p>
 <p align="center">
 <img src="https://github.com/AlexaYuqinD/Knowledge-Graph-for-Activities-of-Investor-Relations/blob/master/images/small.png" 
- width="500" height="300" />
+ width="270" height="200" />
 </p>
 
 <p align="center">Zoomed in Knowledge Graph</p>
 <p align="center">
 <img src="https://github.com/AlexaYuqinD/Knowledge-Graph-for-Activities-of-Investor-Relations/blob/master/images/big.png" 
- width="600" height="400" />
+ width="600" height="460" />
 </p>
 
 ## Reference
