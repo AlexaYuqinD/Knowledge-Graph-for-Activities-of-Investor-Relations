@@ -58,7 +58,7 @@ Add a CRF layer to a Bi-LSTM architecture.
 <p align="center">Confusion Matrix</p>
 <p align="center">
 <img src="https://github.com/AlexaYuqinD/Knowledge-Graph-for-Activities-of-Investor-Relations/blob/master/images/bi.PNG" 
- width="450" height="140" />
+ width="460" height="140" />
 </p>
 
 <br>
@@ -66,7 +66,7 @@ Add a CRF layer to a Bi-LSTM architecture.
 <p align="center">Customized Input Test on the Trained Model</p>
 <p align="center">
 <img src="https://github.com/AlexaYuqinD/Knowledge-Graph-for-Activities-of-Investor-Relations/blob/master/images/bi1.PNG" 
- width="550" height="190" />
+ width="550" height="200" />
 </p>
 
 #### (iii) IDCNN-CRF
