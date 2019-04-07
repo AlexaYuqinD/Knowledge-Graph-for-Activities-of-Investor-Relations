@@ -5,7 +5,7 @@ Crawl Investor Relation forms of companies of Shenzhen stock market from <a href
 
 ## 2. Knowledge Extraction
 ### Objects
-investor activity types
+<p align="center">Investor Activity Types</p>
 <p align="center">
 <img src="https://github.com/AlexaYuqinD/Knowledge-Graph-for-Activities-of-Investor-Relations/blob/master/images/type1.PNG" 
  width="400" height="110" />
@@ -17,14 +17,15 @@ investor activity types
  width="400" height="110" />
 </p>
 
-host names and positions
+
+<p align="center">Host Names and Positions</p>
 
 <p align="center">
 <img src="https://github.com/AlexaYuqinD/Knowledge-Graph-for-Activities-of-Investor-Relations/blob/master/images/host.PNG" 
  width="400" height="60" />
 </p>
 
-guest names and corresponding companies
+<p align="center">Guest Names and Corresponding Companies</p>
 
 <p align="center">
 <img src="https://github.com/AlexaYuqinD/Knowledge-Graph-for-Activities-of-Investor-Relations/blob/master/images/guest1.PNG" 
@@ -92,10 +93,12 @@ the same parameters in a recurrent fashion helps the model memorize longer and g
  width="460" height="140" />
 </p>
 
+<br>
+
 <p align="center">Customized Input Test on the Trained Model</p>
 <p align="center">
 <img src="https://github.com/AlexaYuqinD/Knowledge-Graph-for-Activities-of-Investor-Relations/blob/master/images/id1.PNG" 
- width="550" height="210" />
+ width="550" height="200" />
 </p>
 
 ## 3. Knowledge Merge
@@ -106,13 +109,13 @@ Use rule-based methods to implement entity disambiguation and coreference resolu
 <p align="center">Entity Relationship Diagram</p>
 <p align="center">
 <img src="https://github.com/AlexaYuqinD/Knowledge-Graph-for-Activities-of-Investor-Relations/blob/master/images/er.png" 
- width="200" height="110" />
+ width="500" height="410" />
 </p>
 
 Based on entity relationship, the data is stored in SPO triples.
 <p align="center">
 <img src="https://github.com/AlexaYuqinD/Knowledge-Graph-for-Activities-of-Investor-Relations/blob/master/images/spo.png" 
- width="300" height="150" />
+ width="450" height="200" />
 </p>
 
 ## 5. Visualization (Knowledge Graph)
@@ -120,13 +123,13 @@ Use Gephi to visualize the knowledge graph.
 <p align="center">The Whole Knowledge Graph</p>
 <p align="center">
 <img src="https://github.com/AlexaYuqinD/Knowledge-Graph-for-Activities-of-Investor-Relations/blob/master/images/small.png" 
- width="300" height="150" />
+ width="500" height="300" />
 </p>
 
 <p align="center">Zoomed in Knowledge Graph</p>
 <p align="center">
 <img src="https://github.com/AlexaYuqinD/Knowledge-Graph-for-Activities-of-Investor-Relations/blob/master/images/big.png" 
- width="300" height="150" />
+ width="600" height="400" />
 </p>
 
 ## Reference
