@@ -48,7 +48,7 @@ Add a CRF layer to a Bi-LSTM architecture.
 <p align="center">BiLSTM-CRF Model Structure</p>
 <p align="center">
 <img src="https://github.com/AlexaYuqinD/Knowledge-Graph-for-Activities-of-Investor-Relations/blob/master/images/BiLSTM+CRF2.PNG" 
- width="500" height="400" />
+ width="500" height="390" />
 </p>
 
 <br>
@@ -58,7 +58,7 @@ Add a CRF layer to a Bi-LSTM architecture.
 <p align="center">Confusion Matrix</p>
 <p align="center">
 <img src="https://github.com/AlexaYuqinD/Knowledge-Graph-for-Activities-of-Investor-Relations/blob/master/images/bi.PNG" 
- width="420" height="130" />
+ width="430" height="130" />
 </p>
 
 <br>
@@ -66,7 +66,7 @@ Add a CRF layer to a Bi-LSTM architecture.
 <p align="center">Customized Input Test on the Trained Model</p>
 <p align="center">
 <img src="https://github.com/AlexaYuqinD/Knowledge-Graph-for-Activities-of-Investor-Relations/blob/master/images/bi1.PNG" 
- width="500" height="150" />
+ width="500" height="170" />
 </p>
 
 #### (iii) IDCNN-CRF
@@ -76,7 +76,7 @@ Dilated convolutions can expand the receptive field exponentially.
 
 <p align="center">
 <img src="https://github.com/AlexaYuqinD/Knowledge-Graph-for-Activities-of-Investor-Relations/blob/master/images/dilated.PNG" 
- width="500" height="140" />
+ width="500" height="170" />
 </p>
 <p align="center">Yu F., Koltun V., Multi-Scale Context Aggregation by Dilated Convolutions (2016)</p>
 
