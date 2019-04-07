@@ -66,7 +66,7 @@ Add a CRF layer to a Bi-LSTM architecture.
 <p align="center">Customized Input Test on the Trained Model</p>
 <p align="center">
 <img src="https://github.com/AlexaYuqinD/Knowledge-Graph-for-Activities-of-Investor-Relations/blob/master/images/bi1.PNG" 
- width="550" height="200" />
+ width="550" height="210" />
 </p>
 
 #### (iii) IDCNN-CRF
@@ -76,11 +76,11 @@ Dilated convolutions can expand the receptive field exponentially.
 
 <p align="center">
 <img src="https://github.com/AlexaYuqinD/Knowledge-Graph-for-Activities-of-Investor-Relations/blob/master/images/dilated.PNG" 
- width="500" height="170" />
+ width="600" height="200" />
 </p>
 <p align="center">Yu F., Koltun V., Multi-Scale Context Aggregation by Dilated Convolutions (2016)</p>
 
-Simply increasing the depth of stacked dilated convolutions would cause overfitting problems. Therefore, Strubell E. et al.(2017) proposed IDCNN(Iterated Dilated Convolutional Neural Networks), which iteratively apply the same small stacks of dilated convolutions. Repeatedly employing
+Simply increasing the depth of stacked dilated convolutions would cause overfitting problems. Therefore, Strubell E. et al.(2017) proposed IDCNN (Iterated Dilated Convolutional Neural Networks), which iteratively apply the same small stacks of dilated convolutions. Repeatedly employing
 the same parameters in a recurrent fashion helps the model memorize longer and generalize better.
 
 
@@ -89,14 +89,15 @@ the same parameters in a recurrent fashion helps the model memorize longer and g
 <p align="center">Confusion Matrix</p>
 <p align="center">
 <img src="https://github.com/AlexaYuqinD/Knowledge-Graph-for-Activities-of-Investor-Relations/blob/master/images/id.PNG" 
- width="400" height="110" />
+ width="460" height="140" />
 </p>
 
 <p align="center">Customized Input Test on the Trained Model</p>
 <p align="center">
 <img src="https://github.com/AlexaYuqinD/Knowledge-Graph-for-Activities-of-Investor-Relations/blob/master/images/id1.PNG" 
- width="400" height="110" />
+ width="550" height="210" />
 </p>
+
 ## 3. Knowledge Merge
 
 Use rule-based methods to implement entity disambiguation and coreference resolution.
@@ -104,13 +105,13 @@ Use rule-based methods to implement entity disambiguation and coreference resolu
 ## 4. Knowledge Storage
 <p align="center">Entity Relationship Diagram</p>
 <p align="center">
-<img src="https://github.com/AlexaYuqinD/Knowledge-Graph-for-Activities-of-Investor-Relations/blob/master/images/er.PNG" 
+<img src="https://github.com/AlexaYuqinD/Knowledge-Graph-for-Activities-of-Investor-Relations/blob/master/images/er.png" 
  width="200" height="110" />
 </p>
 
 Based on entity relationship, the data is stored in SPO triples.
 <p align="center">
-<img src="https://github.com/AlexaYuqinD/Knowledge-Graph-for-Activities-of-Investor-Relations/blob/master/images/spo.PNG" 
+<img src="https://github.com/AlexaYuqinD/Knowledge-Graph-for-Activities-of-Investor-Relations/blob/master/images/spo.png" 
  width="300" height="150" />
 </p>
 
@@ -118,13 +119,13 @@ Based on entity relationship, the data is stored in SPO triples.
 Use Gephi to visualize the knowledge graph.
 <p align="center">The Whole Knowledge Graph</p>
 <p align="center">
-<img src="https://github.com/AlexaYuqinD/Knowledge-Graph-for-Activities-of-Investor-Relations/blob/master/images/small.PNG" 
+<img src="https://github.com/AlexaYuqinD/Knowledge-Graph-for-Activities-of-Investor-Relations/blob/master/images/small.png" 
  width="300" height="150" />
 </p>
 
 <p align="center">Zoomed in Knowledge Graph</p>
 <p align="center">
-<img src="https://github.com/AlexaYuqinD/Knowledge-Graph-for-Activities-of-Investor-Relations/blob/master/images/big.PNG" 
+<img src="https://github.com/AlexaYuqinD/Knowledge-Graph-for-Activities-of-Investor-Relations/blob/master/images/big.png" 
  width="300" height="150" />
 </p>
 
