@@ -1,7 +1,7 @@
 # Knowledge Graph for Activities of Investor Relations
 
 ## 1. Crawling Data
-Crawl Investor Relation forms of companies of Shenzhen stock market from <a href="http://www.cninfo.com.cn">http://www.cninfo.com.cn</a>. Then filter and read the files.
+Crawl Investor Relation forms of companies in Shenzhen stock market from <a href="http://www.cninfo.com.cn">http://www.cninfo.com.cn</a>. Then filter and read the files.
 
 ## 2. Knowledge Extraction
 ### Objects
@@ -42,7 +42,7 @@ Crawl Investor Relation forms of companies of Shenzhen stock market from <a href
 
 ### Methods
 #### (i) Based on Rules
-Note: for entity, attribute and relation extraction.
+Note: for entity, attribute and relationship extraction.
 
 #### (ii) BiLSTM-CRF
 Note: only for named entity extraction (people and companies).
@@ -113,7 +113,7 @@ Use rule-based methods to implement entity disambiguation and coreference resolu
 <p align="center">Entity Relationship Diagram</p>
 <p align="center">
 <img src="https://github.com/AlexaYuqinD/Knowledge-Graph-for-Activities-of-Investor-Relations/blob/master/images/er.png" 
- width="530" height="350" />
+ width="530" height="340" />
 </p>
 
 <br>
@@ -126,7 +126,7 @@ Based on entity relationship, the data is stored in SPO triples.
 
 ## 5. Visualization (Knowledge Graph)
 Use Gephi to visualize the knowledge graph.
-<p align="center">The Whole Knowledge Graph</p>
+<p align="center">The Complete Knowledge Graph</p>
 <p align="center">
 <img src="https://github.com/AlexaYuqinD/Knowledge-Graph-for-Activities-of-Investor-Relations/blob/master/images/small.png" 
  width="290" height="255" />
