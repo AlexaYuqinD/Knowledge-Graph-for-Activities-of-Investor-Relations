@@ -126,8 +126,10 @@ Use Gephi to visualize the knowledge graph.
 <p align="center">The Whole Knowledge Graph</p>
 <p align="center">
 <img src="https://github.com/AlexaYuqinD/Knowledge-Graph-for-Activities-of-Investor-Relations/blob/master/images/small.png" 
- width="270" height="220" />
+ width="270" height="240" />
 </p>
+
+<br>
 
 <p align="center">Zoomed in Knowledge Graph</p>
 <p align="center">
