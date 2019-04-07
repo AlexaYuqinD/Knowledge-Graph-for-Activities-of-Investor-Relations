@@ -109,6 +109,7 @@ the same parameters in a recurrent fashion helps the model memorize longer and g
 Use rule-based methods to implement entity disambiguation and coreference resolution.
 
 ## 4. Knowledge Storage
+
 <p align="center">Entity Relationship Diagram</p>
 <p align="center">
 <img src="https://github.com/AlexaYuqinD/Knowledge-Graph-for-Activities-of-Investor-Relations/blob/master/images/er.png" 
