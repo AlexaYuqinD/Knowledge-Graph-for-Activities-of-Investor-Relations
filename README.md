@@ -44,6 +44,8 @@ Crawl Investor Relation forms of companies in Shenzhen stock market from <a href
 #### (i) Based on Rules
 Note: for entity, attribute and relationship extraction.
 
+Set comprehensive rules that reach 100% precision and recall. Might not generalize well to unseen data.
+
 #### (ii) BiLSTM-CRF
 Note: only for named entity extraction (people and companies).
 
